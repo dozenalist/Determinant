@@ -1,0 +1,38 @@
+[Determinant.timing] startup and imports: 1395 ms
+[Determinant.timing] input declaration: 85 ms
+[Determinant.timing] integer cast bridge: 27 ms
+[Determinant.timing] triangular attempt: 11 ms
+[Determinant.timing] extraction: 0 ms
+[Determinant.timing] serialization: 1 ms
+[Determinant.timing] producer transport: 1426 ms
+[Determinant.timing] parsing: 1 ms
+[Determinant.timing] normalization: 19 ms
+[Determinant.timing] certificate proof: 10 ms
+[Determinant.timing] goal connection: 1 ms
+tactic execution of Lean.Parser.Tactic.exact took 1.45ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 2.96ms
+tactic execution of Determinant.Tactic.tacticDet_ne_zero__ took 1.49s
+benchmark tactic returned after 1502 ms
+share common exprs took 1.27ms
+type checking took 73.5ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 1886
+[Determinant.timing] pre-export elapsed: 3570 ms
+cumulative profiling times:
+	attribute application 0.0112ms
+	compilation (IR) 0.077ms
+	compilation (LCNF base) 0.666ms
+	compilation (LCNF impure) 0.344ms
+	compilation (LCNF mono) 0.455ms
+	declTypeLinter 0.884ms
+	fix level params 0.0876ms
+	instantiate metavars 0.0105ms
+	interpretation 0.0813ms
+	let-to-have transformation 0.00592ms
+	norm_num 3.54ms
+	process pre-definitions 0.664ms
+	share common exprs 1.27ms
+	tactic execution 1.49s
+	tacticAnalysis 0.359ms
+	type checking 73.7ms
+	typeclass inference 4.4ms

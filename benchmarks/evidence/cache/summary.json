@@ -1,0 +1,188 @@
+{
+  "100": {
+    "plain": {
+      "runs": 3,
+      "wallSeconds": {
+        "median": 29.629,
+        "worst": 29.888
+      },
+      "tacticMs": {
+        "median": 26733,
+        "worst": 27170
+      },
+      "peakLeanSampleBytes": {
+        "median": 1665486848,
+        "worst": 1665671168
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1688604672,
+        "worst": 1688682496
+      },
+      "phaseMediansMs": {
+        "certificate proof": 23997,
+        "extraction": 41,
+        "goal connection": 6,
+        "normalization": 875,
+        "parsing": 9,
+        "producer transport": 1572,
+        "row kernel proofs": 22404,
+        "serialization": 10,
+        "triangular attempt": 34
+      }
+    },
+    "miss": {
+      "runs": 3,
+      "wallSeconds": {
+        "median": 29.058,
+        "worst": 29.392
+      },
+      "tacticMs": {
+        "median": 26402,
+        "worst": 26713
+      },
+      "peakLeanSampleBytes": {
+        "median": 1671798784,
+        "worst": 1672048640
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1695313920,
+        "worst": 1844785152
+      },
+      "phaseMediansMs": {
+        "cache lookup": 115,
+        "cache store": 168,
+        "cache verification": 635,
+        "certificate proof": 23008,
+        "extraction": 40,
+        "goal connection": 9,
+        "normalization": 884,
+        "parsing": 9,
+        "producer transport": 1486,
+        "row kernel proofs": 21472,
+        "serialization": 8,
+        "triangular attempt": 36
+      }
+    },
+    "hit": {
+      "runs": 3,
+      "wallSeconds": {
+        "median": 26.103,
+        "worst": 26.775
+      },
+      "tacticMs": {
+        "median": 23606,
+        "worst": 24075
+      },
+      "peakLeanSampleBytes": {
+        "median": 1665527808,
+        "worst": 1671344128
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1665527808,
+        "worst": 1671344128
+      },
+      "phaseMediansMs": {
+        "cache lookup": 118,
+        "certificate proof": 22430,
+        "extraction": 39,
+        "goal connection": 5,
+        "normalization": 935,
+        "row kernel proofs": 20877,
+        "triangular attempt": 35
+      }
+    }
+  },
+  "128": {
+    "plain": {
+      "runs": 1,
+      "wallSeconds": {
+        "median": 55.978,
+        "worst": 55.978
+      },
+      "tacticMs": {
+        "median": 52378,
+        "worst": 52378
+      },
+      "peakLeanSampleBytes": {
+        "median": 1810616320,
+        "worst": 1810616320
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1810616320,
+        "worst": 1810616320
+      },
+      "phaseMediansMs": {
+        "certificate proof": 49056,
+        "extraction": 67,
+        "goal connection": 12,
+        "normalization": 1624,
+        "parsing": 16,
+        "producer transport": 1502,
+        "row kernel proofs": 45916,
+        "serialization": 12,
+        "triangular attempt": 72
+      }
+    },
+    "miss": {
+      "runs": 1,
+      "wallSeconds": {
+        "median": 57.866,
+        "worst": 57.866
+      },
+      "tacticMs": {
+        "median": 53990,
+        "worst": 53990
+      },
+      "peakLeanSampleBytes": {
+        "median": 1812774912,
+        "worst": 1812774912
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1812774912,
+        "worst": 1812774912
+      },
+      "phaseMediansMs": {
+        "cache lookup": 147,
+        "cache store": 135,
+        "cache verification": 1204,
+        "certificate proof": 49329,
+        "extraction": 64,
+        "goal connection": 8,
+        "normalization": 1590,
+        "parsing": 14,
+        "producer transport": 1392,
+        "row kernel proofs": 46725,
+        "serialization": 14,
+        "triangular attempt": 53
+      }
+    },
+    "hit": {
+      "runs": 1,
+      "wallSeconds": {
+        "median": 55.27,
+        "worst": 55.27
+      },
+      "tacticMs": {
+        "median": 51494,
+        "worst": 51494
+      },
+      "peakLeanSampleBytes": {
+        "median": 1811152896,
+        "worst": 1811152896
+      },
+      "peakCombinedSampleBytes": {
+        "median": 1811152896,
+        "worst": 1811152896
+      },
+      "phaseMediansMs": {
+        "cache lookup": 127,
+        "certificate proof": 49489,
+        "extraction": 72,
+        "goal connection": 9,
+        "normalization": 1689,
+        "row kernel proofs": 46933,
+        "triangular attempt": 53
+      }
+    }
+  }
+}

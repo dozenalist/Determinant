@@ -1,0 +1,34 @@
+--- a/Determinant/NatCertificate.lean
++++ b/Determinant/NatCertificate.lean
+@@ -81,10 +81,21 @@
+         Nat.add (Nat.mul x y) (natDotZip xs ys)
+       rw [ih]
+ 
++def natDotAcc : List ℕ → List ℕ → ℕ → ℕ
++  | a :: as, b :: bs, acc => natDotAcc as bs (Nat.add acc (Nat.mul a b))
++  | _, _, acc => acc
++
++theorem natDotAcc_eq (a b : List ℕ) (acc : ℕ) :
++    natDotAcc a b acc = acc + natDotFused a b := by
++  induction a generalizing b acc with
++  | nil => simp [natDotAcc, natDotFused]
++  | cons x xs ih =>
++    cases b <;> simp [natDotAcc, natDotFused, ih, Nat.add_assoc]
++
+ def checkNatRow (upper : Bool) (n p i : ℕ) (row : List ℕ) (bt : List (List ℕ)) : Bool :=
+   bt.zipIdx.all fun (col, j) =>
+     if upper && i < j then true
+-    else natDotFused row col % p == if i == j then 1 else 0
++    else natDotAcc row col 0 % p == if i == j then 1 else 0
+ 
+ def checkNatRows (upper : Bool) (n p start : ℕ) (a bt : List (List ℕ)) : Bool :=
+   (a.zipIdx start).all fun (row, i) => checkNatRow upper n p i row bt
+@@ -118,7 +129,7 @@
+   have hwidth : (a[i.val]).length = n := by
+     simpa using List.all_eq_true.mp hw _ (List.getElem_mem hi)
+   have hnot : ¬ i.val < j.val := Nat.not_lt.mpr hij
+-  simpa [natDotFused_eq, natDotZip_eq, hwidth, hnot,
++  simpa [natDotAcc_eq, natDotFused_eq, natDotZip_eq, hwidth, hnot,
+     List.getElem?_eq_getElem hi, List.getElem?_eq_getElem hj,
+     Fin.ext_iff] using hcell
+ 

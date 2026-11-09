@@ -1,0 +1,119 @@
+[
+  {
+    "dimension": 128,
+    "mode": "plain",
+    "run": 1,
+    "wallSeconds": 55.978,
+    "tacticMs": 52378,
+    "peakLeanSampleBytes": 1810616320,
+    "peakCombinedSampleBytes": 1810616320,
+    "exitCode": 0,
+    "oleanBytes": 55896,
+    "producerInvocations": 1,
+    "log": "dense128-plain-run1.log",
+    "directory": ".lake/cache-benchmark/1794203110870648511/128/run1",
+    "phasesMs": {
+      "triangular attempt": 72,
+      "extraction": 67,
+      "serialization": 12,
+      "producer transport": 1502,
+      "parsing": 16,
+      "normalization": 1624,
+      "row kernel proofs": 45916,
+      "certificate proof": 49056,
+      "goal connection": 12
+    },
+    "kernelMs": 51300.0,
+    "finalDeclarationKernelMs": 1080.0,
+    "proofNodes": null,
+    "producer": {
+      "attempted_primes": [
+        "2"
+      ],
+      "backend": "sage.matrix.matrix_mod2_dense.Matrix_mod2_dense",
+      "certificate_encode_ms": 5,
+      "elapsed_ms": 1072,
+      "import_ms": 1041,
+      "matrix_ms": 3,
+      "name": "SageMath",
+      "peak_rss_kib": 216304,
+      "sage_version": "10.10",
+      "search_inverse_ms": 22
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]"
+  },
+  {
+    "dimension": 128,
+    "mode": "miss",
+    "run": 1,
+    "wallSeconds": 57.866,
+    "tacticMs": 53990,
+    "peakLeanSampleBytes": 1812774912,
+    "peakCombinedSampleBytes": 1812774912,
+    "exitCode": 0,
+    "oleanBytes": 55896,
+    "producerInvocations": 1,
+    "log": "dense128-miss-run1.log",
+    "directory": ".lake/cache-benchmark/1794203110870648511/128/run1",
+    "phasesMs": {
+      "triangular attempt": 53,
+      "extraction": 64,
+      "cache lookup": 147,
+      "serialization": 14,
+      "producer transport": 1392,
+      "parsing": 14,
+      "normalization": 1590,
+      "row kernel proofs": 46725,
+      "certificate proof": 49329,
+      "goal connection": 8,
+      "cache verification": 1204,
+      "cache store": 135
+    },
+    "kernelMs": 51600.0,
+    "finalDeclarationKernelMs": 1230.0,
+    "proofNodes": null,
+    "producer": {
+      "attempted_primes": [
+        "2"
+      ],
+      "backend": "sage.matrix.matrix_mod2_dense.Matrix_mod2_dense",
+      "certificate_encode_ms": 5,
+      "elapsed_ms": 987,
+      "import_ms": 960,
+      "matrix_ms": 3,
+      "name": "SageMath",
+      "peak_rss_kib": 215604,
+      "sage_version": "10.10",
+      "search_inverse_ms": 20
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]"
+  },
+  {
+    "dimension": 128,
+    "mode": "hit",
+    "run": 1,
+    "wallSeconds": 55.27,
+    "tacticMs": 51494,
+    "peakLeanSampleBytes": 1811152896,
+    "peakCombinedSampleBytes": 1811152896,
+    "exitCode": 0,
+    "oleanBytes": 55896,
+    "producerInvocations": 0,
+    "log": "dense128-hit-run1.log",
+    "directory": ".lake/cache-benchmark/1794203110870648511/128/run1",
+    "phasesMs": {
+      "triangular attempt": 53,
+      "extraction": 72,
+      "cache lookup": 127,
+      "normalization": 1689,
+      "row kernel proofs": 46933,
+      "certificate proof": 49489,
+      "goal connection": 9
+    },
+    "kernelMs": 51800.0,
+    "finalDeclarationKernelMs": 1100.0,
+    "proofNodes": null,
+    "producer": null,
+    "axiomReport": "[propext, Classical.choice, Quot.sound]"
+  }
+]

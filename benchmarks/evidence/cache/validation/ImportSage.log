@@ -1,0 +1,2 @@
+SageTests.denseRetry : !![2, 1; 2, 2].det ≠ 0
+'SageTests.denseRetry' depends on axioms: [propext, Classical.choice, Quot.sound]

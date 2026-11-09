@@ -1,0 +1,84 @@
+{
+  "implementations": {
+    "prototype": {
+      "count": 6,
+      "wallSeconds": [
+        40.999,
+        40.235,
+        39.625,
+        49.009,
+        41.278,
+        30.474
+      ],
+      "medianSeconds": 40.617000000000004,
+      "worstSeconds": 49.009,
+      "medianPhasesMs": {
+        "startup and imports": 1676.0,
+        "input declaration": 92.0,
+        "triangular attempt": 37.5,
+        "extraction": 47.5,
+        "serialization": 9.5,
+        "producer transport": 2050.5,
+        "parsing": 14.5,
+        "normalization": 1336.5,
+        "row kernel proofs": 30228.0,
+        "certificate proof": 32551.5,
+        "goal connection": 16.0,
+        "pre-export elapsed": 40059.0
+      },
+      "medianKernelMs": 34200.0,
+      "medianFinalKernelMs": 887.5
+    },
+    "current": {
+      "count": 6,
+      "wallSeconds": [
+        42.241,
+        50.092,
+        35.757,
+        42.362,
+        35.075,
+        38.73
+      ],
+      "medianSeconds": 40.4855,
+      "worstSeconds": 50.092,
+      "medianPhasesMs": {
+        "startup and imports": 1806.0,
+        "input declaration": 119.0,
+        "triangular attempt": 47.0,
+        "extraction": 57.5,
+        "serialization": 13.0,
+        "producer transport": 2087.5,
+        "parsing": 14.5,
+        "normalization": 1209.5,
+        "row kernel proofs": 29921.0,
+        "certificate proof": 32330.5,
+        "goal connection": 14.5,
+        "pre-export elapsed": 39688.5
+      },
+      "medianKernelMs": 33900.0,
+      "medianFinalKernelMs": 999.5
+    }
+  },
+  "pairedCurrentOverPrototype": [
+    1.0302934217907753,
+    1.2449857089598608,
+    0.902384858044164,
+    0.8643718500683548,
+    0.849726246426668,
+    1.270919472337074
+  ],
+  "pairedGeometricMeanRatio": 1.0129837121058762,
+  "pairedBootstrap95Interval": [
+    0.8913576654041016,
+    1.1551681309306594
+  ],
+  "bootstrapNote": "Descriptive paired bootstrap percentile interval; six pairs by default.",
+  "warmupsPerVersion": 1,
+  "alternatingOrder": true,
+  "nativeRunRoot": "/tmp/determinant-state-compare-8zawq_c8",
+  "sourceHashes": {
+    "prototype": "6fbd2ebcd116b140196a4b3bb5d25501b4b114407a4b8a5703fba0f0f3342146",
+    "current": "618f54cadf7ed4a1cd58cb1506f1e723659eb11d4f6e93ebbc1fbde63a567acb"
+  },
+  "producerSHA256": "74d2e37543ede2322dd981a19910a44b41aecc55b3a09390518e25b3fb5ccc2c"
+}

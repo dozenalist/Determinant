@@ -1,0 +1,62 @@
+[
+  {
+    "case": {
+      "name": "retry-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "retry",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "721b103f6c019c191d6e2b69ec4106cc1187b9e54436e0a79da459c11ab8eac0"
+    },
+    "run": 1,
+    "wallSeconds": 39.414,
+    "exitCode": 0,
+    "timedOut": false,
+    "deadlineSeconds": 600,
+    "peakLeanSampleBytes": 1805385728,
+    "peakProcessRssWait4Bytes": 1804935168,
+    "peakCombinedSampleBytes": 1805385728,
+    "sourceBytes": 95425,
+    "oleanBytes": 159784,
+    "allOleanPartsBytes": 3380152,
+    "log": "retry-100-20bit-unit-upper-product-json-decimal-strings-run1.log",
+    "phasesMs": {
+      "startup and imports": 1146,
+      "input declaration": 59,
+      "triangular attempt": 29,
+      "extraction": 27,
+      "serialization": 6,
+      "producer transport": 1016,
+      "parsing": 6,
+      "normalization": 1685,
+      "row kernel proofs": 31385,
+      "certificate proof": 32546,
+      "goal connection": 2,
+      "pre-export elapsed": 39233
+    },
+    "kernelMs": 33500.0,
+    "finalDeclarationKernelMs": 2330.0,
+    "proofNodes": 75549,
+    "producer": {
+      "attempted_primes": [
+        "2",
+        "3"
+      ],
+      "backend": "sage.matrix.matrix_modn_dense_float.Matrix_modn_dense_float",
+      "certificate_encode_ms": 4,
+      "elapsed_ms": 680,
+      "import_ms": 657,
+      "matrix_ms": 1,
+      "name": "SageMath",
+      "peak_rss_kib": 216076,
+      "sage_version": "10.10",
+      "search_inverse_ms": 18
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "exportAndExitMs": 180.927
+  }
+]

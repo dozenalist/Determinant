@@ -1,0 +1,29 @@
+﻿[
+    {
+        "Dimension":  100,
+        "EntryBits":  256,
+        "Run":  1,
+        "Seconds":  73.446,
+        "SourceBytes":  416701,
+        "OLeanBytes":  22071712,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  100,
+        "EntryBits":  256,
+        "Run":  2,
+        "Seconds":  46.508,
+        "SourceBytes":  416701,
+        "OLeanBytes":  22071712,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  100,
+        "EntryBits":  256,
+        "Run":  3,
+        "Seconds":  33.28,
+        "SourceBytes":  416701,
+        "OLeanBytes":  22071712,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+]

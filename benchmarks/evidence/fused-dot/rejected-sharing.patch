@@ -1,0 +1,30 @@
+--- a/Determinant/Tactic/Modular.lean
++++ b/Determinant/Tactic/Modular.lean
+@@ -14,6 +14,7 @@
+ public meta import Mathlib.Tactic.Echelon.Rat
+ public meta import Lean.Meta.Closure
+ public meta import Lean.Meta.Tactic.AuxLemma
++public meta import Lean.Util.ShareCommon
+ public import Mathlib.Tactic.NormNum
+ 
+ /-! # Offline, strict modular certificate replay -/
+@@ -108,7 +109,8 @@
+   have bn : Q(List (List ℕ)) := B.lit
+   let columns ← if n > 16 then
+       withOptions (fun options => options.setBool `Elab.async false) do
+-        mkAuxDefinitionFor (← mkAuxDeclName (kind := `_detColumns)) T.lit (compile := false)
++        mkAuxDefinitionFor (← mkAuxDeclName (kind := `_detColumns))
++          (Lean.ShareCommon.shareCommon T.lit) (compile := false)
+     else pure T.lit
+   have tn : Q(List (List ℕ)) := columns
+   have ha' : Q(residueRows $p $original = intRows $an) := ha
+@@ -134,7 +136,8 @@
+       for i in [:n] do
+         have row : Q(List ℕ) := rowLits[i]!
+         have index : Q(ℕ) := mkNatLit i
+-        let proposition := q(checkNatRow $upper $n $p $index $row $tn = true)
++        let proposition := Lean.ShareCommon.shareCommon
++          q(checkNatRow $upper $n $p $index $row $tn = true)
+         let value := Lean.reflBoolTrue
+         let name ← withOptions (fun options => options.setBool `Elab.async false) <|
+           mkAuxLemma [] proposition value (cache := false)

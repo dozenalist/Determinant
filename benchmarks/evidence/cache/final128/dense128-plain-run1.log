@@ -1,0 +1,170 @@
+[Determinant.timing] triangular attempt: 72 ms
+[Determinant.timing] extraction: 67 ms
+[Determinant.timing] serialization: 12 ms
+[Determinant.producer] starting python3 with [scripts/det_certificate.py]
+[Determinant.producer] producer completed in 1502 ms
+    
+[Determinant.timing] producer transport: 1502 ms
+[Determinant.timing] parsing: 16 ms
+[Determinant.producer] metadata: {"attempted_primes":["2"],"backend":"sage.matrix.matrix_mod2_dense.Matrix_mod2_dense","certificate_encode_ms":5,"elapsed_ms":1072,"import_ms":1041,"matrix_ms":3,"name":"SageMath","peak_rss_kib":216304,"sage_version":"10.10","search_inverse_ms":22}
+[Determinant.timing] normalization: 1624 ms
+[Determinant.timing] row kernel proofs: 45916 ms
+[Determinant.timing] certificate proof: 49056 ms
+[Determinant.timing] goal connection: 12 ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 66.7ms
+type checking took 1.53s
+type checking took 7.89ms
+type checking took 2.78s
+type checking took 19.2ms
+type checking took 21.9ms
+type checking took 26ms
+type checking took 31.7ms
+type checking took 35ms
+type checking took 38.7ms
+type checking took 42.1ms
+type checking took 47.8ms
+type checking took 58.4ms
+type checking took 59.7ms
+type checking took 68ms
+type checking took 79.9ms
+type checking took 78.3ms
+type checking took 78.6ms
+type checking took 95.4ms
+type checking took 94.2ms
+type checking took 96.1ms
+type checking took 100ms
+type checking took 100ms
+type checking took 105ms
+type checking took 115ms
+type checking took 128ms
+type checking took 130ms
+type checking took 128ms
+type checking took 168ms
+type checking took 129ms
+type checking took 133ms
+type checking took 166ms
+type checking took 148ms
+type checking took 180ms
+type checking took 179ms
+type checking took 171ms
+type checking took 180ms
+type checking took 184ms
+type checking took 200ms
+type checking took 197ms
+type checking took 188ms
+type checking took 195ms
+type checking took 200ms
+type checking took 206ms
+type checking took 202ms
+type checking took 217ms
+type checking took 228ms
+type checking took 233ms
+type checking took 244ms
+type checking took 244ms
+type checking took 263ms
+type checking took 310ms
+type checking took 262ms
+type checking took 269ms
+type checking took 270ms
+type checking took 318ms
+type checking took 314ms
+type checking took 304ms
+type checking took 289ms
+type checking took 291ms
+type checking took 308ms
+type checking took 333ms
+type checking took 311ms
+type checking took 324ms
+type checking took 400ms
+type checking took 546ms
+type checking took 364ms
+type checking took 342ms
+type checking took 346ms
+type checking took 343ms
+type checking took 369ms
+type checking took 395ms
+type checking took 396ms
+type checking took 368ms
+type checking took 391ms
+type checking took 415ms
+type checking took 402ms
+type checking took 403ms
+type checking took 435ms
+type checking took 435ms
+type checking took 433ms
+type checking took 438ms
+type checking took 456ms
+type checking took 448ms
+type checking took 469ms
+type checking took 443ms
+type checking took 469ms
+type checking took 462ms
+type checking took 463ms
+type checking took 482ms
+type checking took 449ms
+type checking took 534ms
+type checking took 479ms
+type checking took 494ms
+type checking took 502ms
+type checking took 535ms
+type checking took 499ms
+type checking took 489ms
+type checking took 497ms
+type checking took 507ms
+type checking took 505ms
+type checking took 553ms
+type checking took 532ms
+type checking took 533ms
+type checking took 540ms
+type checking took 609ms
+type checking took 577ms
+type checking took 582ms
+type checking took 573ms
+type checking took 574ms
+type checking took 610ms
+type checking took 590ms
+type checking took 607ms
+type checking took 617ms
+type checking took 649ms
+type checking took 633ms
+type checking took 608ms
+type checking took 609ms
+type checking took 595ms
+type checking took 670ms
+type checking took 642ms
+type checking took 649ms
+type checking took 683ms
+type checking took 655ms
+type checking took 665ms
+type checking took 655ms
+type checking took 662ms
+type checking took 670ms
+type checking took 678ms
+type checking took 686ms
+type checking took 717ms
+type checking took 700ms
+tactic execution of Determinant.Tactic.tacticDet_ne_zero__ took 2.12s
+benchmark tactic returned after 52378 ms
+share common exprs took 159ms
+fix level params took 3.24ms
+type checking took 1.08s
+process pre-definitions took 25.7ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.0121ms
+	compilation (IR) 0.0721ms
+	compilation (LCNF base) 0.779ms
+	compilation (LCNF impure) 0.369ms
+	compilation (LCNF mono) 0.415ms
+	declTypeLinter 0.6ms
+	fix level params 3.24ms
+	instantiate metavars 0.019ms
+	interpretation 0.057ms
+	let-to-have transformation 0.0632ms
+	norm_num 2.74ms
+	process pre-definitions 25.7ms
+	share common exprs 159ms
+	tactic execution 2.19s
+	tacticAnalysis 0.897ms
+	type checking 51.3s
+	typeclass inference 3.47ms

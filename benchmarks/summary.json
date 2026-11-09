@@ -1,0 +1,2413 @@
+[
+  {
+    "label": "computable-input",
+    "case": {
+      "name": "dense-10-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 10,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261118,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "86ae9a28ee2e46f8b05aea9a17f168d0af44d4f1771414f45dbc89cd1771ef45"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 3.762,
+      "worst": 16.51,
+      "samples": [
+        16.51,
+        3.706,
+        3.762
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 19,
+        "worst": 21,
+        "samples": [
+          10,
+          21,
+          19
+        ]
+      },
+      "extraction": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          0,
+          1,
+          1
+        ]
+      },
+      "goal connection": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2,
+          1,
+          2
+        ]
+      },
+      "input declaration": {
+        "median": 31,
+        "worst": 36,
+        "samples": [
+          31,
+          24,
+          36
+        ]
+      },
+      "normalization": {
+        "median": 30,
+        "worst": 33,
+        "samples": [
+          22,
+          30,
+          33
+        ]
+      },
+      "parsing": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1,
+          1,
+          0
+        ]
+      },
+      "producer transport": {
+        "median": 1982,
+        "worst": 2624,
+        "samples": [
+          2624,
+          1982,
+          1796
+        ]
+      },
+      "serialization": {
+        "median": 0,
+        "worst": 0,
+        "samples": [
+          0,
+          0,
+          0
+        ]
+      },
+      "triangular attempt": {
+        "median": 12,
+        "worst": 13,
+        "samples": [
+          11,
+          13,
+          12
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 104.0,
+      "worst": 110.0,
+      "samples": [
+        62.0,
+        110.0,
+        104.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 104.0,
+      "worst": 110.0,
+      "samples": [
+        61.9,
+        110.0,
+        104.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 841320,
+      "worst": 841320,
+      "samples": [
+        841320,
+        841320,
+        841320
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1437626368,
+      "worst": 1437650944,
+      "samples": [
+        1318731776,
+        1437650944,
+        1437626368
+      ]
+    },
+    "proofNodes": {
+      "median": 910,
+      "worst": 910,
+      "samples": [
+        910,
+        910,
+        910
+      ]
+    }
+  },
+  {
+    "label": "computable-input",
+    "case": {
+      "name": "dense-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "41e4bf9d999f70a860ca07b5781050d2d6e343d52a2d8af34a19d3a21732f9df"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 10.204,
+      "worst": 17.178,
+      "samples": [
+        17.178,
+        10.204,
+        8.034
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 4163,
+        "worst": 7201,
+        "samples": [
+          7201,
+          4163,
+          3818
+        ]
+      },
+      "extraction": {
+        "median": 8,
+        "worst": 20,
+        "samples": [
+          20,
+          8,
+          7
+        ]
+      },
+      "goal connection": {
+        "median": 1,
+        "worst": 2,
+        "samples": [
+          2,
+          1,
+          1
+        ]
+      },
+      "input declaration": {
+        "median": 921,
+        "worst": 1411,
+        "samples": [
+          1411,
+          921,
+          664
+        ]
+      },
+      "normalization": {
+        "median": 490,
+        "worst": 1119,
+        "samples": [
+          1119,
+          490,
+          346
+        ]
+      },
+      "parsing": {
+        "median": 3,
+        "worst": 4,
+        "samples": [
+          3,
+          4,
+          2
+        ]
+      },
+      "producer transport": {
+        "median": 1531,
+        "worst": 3122,
+        "samples": [
+          3122,
+          1531,
+          1002
+        ]
+      },
+      "row kernel proofs": {
+        "median": 3858,
+        "worst": 6592,
+        "samples": [
+          6592,
+          3858,
+          3544
+        ]
+      },
+      "serialization": {
+        "median": 3,
+        "worst": 9,
+        "samples": [
+          9,
+          3,
+          2
+        ]
+      },
+      "triangular attempt": {
+        "median": 17,
+        "worst": 37,
+        "samples": [
+          37,
+          17,
+          10
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 4370.0,
+      "worst": 7260.0,
+      "samples": [
+        7260.0,
+        4370.0,
+        3990.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 557.0,
+      "worst": 763.0,
+      "samples": [
+        763.0,
+        557.0,
+        496.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 7964408,
+      "worst": 7964408,
+      "samples": [
+        7964408,
+        7964408,
+        7964408
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1562497024,
+      "worst": 1565564928,
+      "samples": [
+        1544036352,
+        1565564928,
+        1562497024
+      ]
+    },
+    "proofNodes": {
+      "median": 19012,
+      "worst": 19012,
+      "samples": [
+        19012,
+        19012,
+        19012
+      ]
+    }
+  },
+  {
+    "label": "computable-input",
+    "case": {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "d8c21fa096a4a9b68beeb3104793bfaccd09d6b555c6f84fb717ae9f58af0736"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 64.007,
+      "worst": 65.095,
+      "samples": [
+        63.41,
+        64.007,
+        65.095
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 44761,
+        "worst": 45578,
+        "samples": [
+          45578,
+          44761,
+          43241
+        ]
+      },
+      "extraction": {
+        "median": 36,
+        "worst": 42,
+        "samples": [
+          36,
+          34,
+          42
+        ]
+      },
+      "goal connection": {
+        "median": 3,
+        "worst": 7,
+        "samples": [
+          7,
+          3,
+          3
+        ]
+      },
+      "input declaration": {
+        "median": 8727,
+        "worst": 11192,
+        "samples": [
+          7603,
+          8727,
+          11192
+        ]
+      },
+      "normalization": {
+        "median": 2187,
+        "worst": 2317,
+        "samples": [
+          2187,
+          2165,
+          2317
+        ]
+      },
+      "parsing": {
+        "median": 7,
+        "worst": 8,
+        "samples": [
+          8,
+          7,
+          6
+        ]
+      },
+      "producer transport": {
+        "median": 1304,
+        "worst": 1317,
+        "samples": [
+          1304,
+          1317,
+          1280
+        ]
+      },
+      "row kernel proofs": {
+        "median": 43278,
+        "worst": 43854,
+        "samples": [
+          43854,
+          43278,
+          41374
+        ]
+      },
+      "serialization": {
+        "median": 8,
+        "worst": 9,
+        "samples": [
+          7,
+          9,
+          8
+        ]
+      },
+      "triangular attempt": {
+        "median": 37,
+        "worst": 40,
+        "samples": [
+          40,
+          33,
+          37
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 46200.0,
+      "worst": 46800.0,
+      "samples": [
+        46800.0,
+        46200.0,
+        44100.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 3160.0,
+      "worst": 3210.0,
+      "samples": [
+        3160.0,
+        3210.0,
+        3000.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 29913360,
+      "worst": 29913360,
+      "samples": [
+        29913360,
+        29913360,
+        29913360
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1948483584,
+      "worst": 1950793728,
+      "samples": [
+        1930702848,
+        1948483584,
+        1950793728
+      ]
+    },
+    "proofNodes": {
+      "median": 74936,
+      "worst": 74936,
+      "samples": [
+        74936,
+        74936,
+        74936
+      ]
+    }
+  },
+  {
+    "label": "dense",
+    "case": {
+      "name": "dense-10-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 10,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261118,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "0928be7f52aedc75a5091cae39cecf7cea58a15ebd837c413ac2379ac0481b24"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 3.162,
+      "worst": 13.455,
+      "samples": [
+        13.455,
+        3.162,
+        2.381
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 17,
+        "worst": 20,
+        "samples": [
+          20,
+          17,
+          7
+        ]
+      },
+      "extraction": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1,
+          1,
+          0
+        ]
+      },
+      "goal connection": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1,
+          1,
+          1
+        ]
+      },
+      "input declaration": {
+        "median": 3,
+        "worst": 3,
+        "samples": [
+          3,
+          3,
+          2
+        ]
+      },
+      "normalization": {
+        "median": 20,
+        "worst": 21,
+        "samples": [
+          20,
+          21,
+          13
+        ]
+      },
+      "parsing": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1,
+          1,
+          0
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 2988,
+        "worst": 13234,
+        "samples": [
+          13234,
+          2988,
+          2279
+        ]
+      },
+      "producer transport": {
+        "median": 1358,
+        "worst": 1957,
+        "samples": [
+          1957,
+          1358,
+          961
+        ]
+      },
+      "serialization": {
+        "median": 0,
+        "worst": 0,
+        "samples": [
+          0,
+          0,
+          0
+        ]
+      },
+      "startup and imports": {
+        "median": 1208,
+        "worst": 10785,
+        "samples": [
+          10785,
+          1208,
+          1017
+        ]
+      },
+      "triangular attempt": {
+        "median": 7,
+        "worst": 17,
+        "samples": [
+          17,
+          7,
+          7
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 43.9,
+      "worst": 92.9,
+      "samples": [
+        92.9,
+        43.9,
+        40.2
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 43.9,
+      "worst": 92.8,
+      "samples": [
+        92.8,
+        43.9,
+        40.2
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 174.03,
+      "worst": 220.723,
+      "samples": [
+        220.723,
+        174.03,
+        101.731
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 567632,
+      "worst": 567632,
+      "samples": [
+        567632,
+        567632,
+        567632
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1435410432,
+      "worst": 1437745152,
+      "samples": [
+        1316610048,
+        1435410432,
+        1437745152
+      ]
+    },
+    "proofNodes": {
+      "median": 910,
+      "worst": 910,
+      "samples": [
+        910,
+        910,
+        910
+      ]
+    }
+  },
+  {
+    "label": "dense",
+    "case": {
+      "name": "dense-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "8ecd928633db9ace7dd562d3f8d781a5d571739c8cde77a79f05a7402a68dbda"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 6.318,
+      "worst": 7.39,
+      "samples": [
+        7.39,
+        6.318,
+        5.711
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 3331,
+        "worst": 3857,
+        "samples": [
+          3857,
+          3331,
+          3056
+        ]
+      },
+      "extraction": {
+        "median": 6,
+        "worst": 8,
+        "samples": [
+          6,
+          8,
+          5
+        ]
+      },
+      "goal connection": {
+        "median": 1,
+        "worst": 2,
+        "samples": [
+          2,
+          1,
+          1
+        ]
+      },
+      "input declaration": {
+        "median": 14,
+        "worst": 15,
+        "samples": [
+          15,
+          14,
+          13
+        ]
+      },
+      "normalization": {
+        "median": 300,
+        "worst": 437,
+        "samples": [
+          437,
+          300,
+          285
+        ]
+      },
+      "parsing": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2,
+          2,
+          1
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 6203,
+        "worst": 7266,
+        "samples": [
+          7266,
+          6203,
+          5648
+        ]
+      },
+      "producer transport": {
+        "median": 951,
+        "worst": 1262,
+        "samples": [
+          1262,
+          951,
+          895
+        ]
+      },
+      "row kernel proofs": {
+        "median": 3109,
+        "worst": 3602,
+        "samples": [
+          3602,
+          3109,
+          2837
+        ]
+      },
+      "serialization": {
+        "median": 1,
+        "worst": 2,
+        "samples": [
+          2,
+          1,
+          1
+        ]
+      },
+      "startup and imports": {
+        "median": 910,
+        "worst": 930,
+        "samples": [
+          930,
+          910,
+          761
+        ]
+      },
+      "triangular attempt": {
+        "median": 10,
+        "worst": 11,
+        "samples": [
+          11,
+          10,
+          9
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 3490.0,
+      "worst": 3970.0,
+      "samples": [
+        3970.0,
+        3490.0,
+        3180.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 419.0,
+      "worst": 422.0,
+      "samples": [
+        422.0,
+        419.0,
+        384.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 114.989,
+      "worst": 124.164,
+      "samples": [
+        124.164,
+        114.989,
+        62.508
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 1255368,
+      "worst": 1255368,
+      "samples": [
+        1255368,
+        1255368,
+        1255368
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1519341568,
+      "worst": 1519665152,
+      "samples": [
+        1519341568,
+        1517252608,
+        1519665152
+      ]
+    },
+    "proofNodes": {
+      "median": 19012,
+      "worst": 19012,
+      "samples": [
+        19012,
+        19012,
+        19012
+      ]
+    }
+  },
+  {
+    "label": "dense",
+    "case": {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "bf625fa859622c1040c49595c902a4f7b7ca5d5ad63a20678c0b9bd82dc2d24f"
+    },
+    "successfulRuns": 3,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 48.003,
+      "worst": 53.965,
+      "samples": [
+        53.965,
+        48.003,
+        45.426
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 40296,
+        "worst": 43180,
+        "samples": [
+          43180,
+          40296,
+          37003
+        ]
+      },
+      "extraction": {
+        "median": 33,
+        "worst": 33,
+        "samples": [
+          33,
+          30,
+          33
+        ]
+      },
+      "goal connection": {
+        "median": 5,
+        "worst": 5,
+        "samples": [
+          5,
+          2,
+          5
+        ]
+      },
+      "input declaration": {
+        "median": 69,
+        "worst": 108,
+        "samples": [
+          108,
+          60,
+          69
+        ]
+      },
+      "normalization": {
+        "median": 2083,
+        "worst": 4422,
+        "samples": [
+          4422,
+          2083,
+          2009
+        ]
+      },
+      "parsing": {
+        "median": 8,
+        "worst": 9,
+        "samples": [
+          9,
+          7,
+          8
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 47761,
+        "worst": 53723,
+        "samples": [
+          53723,
+          47761,
+          45170
+        ]
+      },
+      "producer transport": {
+        "median": 1338,
+        "worst": 1541,
+        "samples": [
+          1541,
+          1158,
+          1338
+        ]
+      },
+      "row kernel proofs": {
+        "median": 38734,
+        "worst": 40861,
+        "samples": [
+          40861,
+          38734,
+          35531
+        ]
+      },
+      "serialization": {
+        "median": 7,
+        "worst": 8,
+        "samples": [
+          6,
+          8,
+          7
+        ]
+      },
+      "startup and imports": {
+        "median": 1040,
+        "worst": 1104,
+        "samples": [
+          809,
+          1104,
+          1040
+        ]
+      },
+      "triangular attempt": {
+        "median": 31,
+        "worst": 32,
+        "samples": [
+          32,
+          31,
+          30
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 41100.0,
+      "worst": 43600.0,
+      "samples": [
+        43600.0,
+        41100.0,
+        38400.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 2970.0,
+      "worst": 3110.0,
+      "samples": [
+        2970.0,
+        2560.0,
+        3110.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 241.755,
+      "worst": 255.776,
+      "samples": [
+        241.755,
+        241.751,
+        255.776
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 3350544,
+      "worst": 3350544,
+      "samples": [
+        3350544,
+        3350544,
+        3350544
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1797902336,
+      "worst": 1800654848,
+      "samples": [
+        1797902336,
+        1800654848,
+        1790124032
+      ]
+    },
+    "proofNodes": {
+      "median": 74936,
+      "worst": 74936,
+      "samples": [
+        74936,
+        74936,
+        74936
+      ]
+    }
+  },
+  {
+    "label": "full50",
+    "case": {
+      "name": "dense-50-20bit-full-inverse-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "full-inverse",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "a3f8c9789522ca88736a3d9faeb756357270eadca44c25e4f1a10cb8705b465c"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 13.007,
+      "worst": 13.007,
+      "samples": [
+        13.007
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 9058,
+        "worst": 9058,
+        "samples": [
+          9058
+        ]
+      },
+      "extraction": {
+        "median": 10,
+        "worst": 10,
+        "samples": [
+          10
+        ]
+      },
+      "goal connection": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1
+        ]
+      },
+      "input declaration": {
+        "median": 18,
+        "worst": 18,
+        "samples": [
+          18
+        ]
+      },
+      "normalization": {
+        "median": 432,
+        "worst": 432,
+        "samples": [
+          432
+        ]
+      },
+      "parsing": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 12882,
+        "worst": 12882,
+        "samples": [
+          12882
+        ]
+      },
+      "producer transport": {
+        "median": 1270,
+        "worst": 1270,
+        "samples": [
+          1270
+        ]
+      },
+      "row kernel proofs": {
+        "median": 8717,
+        "worst": 8717,
+        "samples": [
+          8717
+        ]
+      },
+      "serialization": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "startup and imports": {
+        "median": 1086,
+        "worst": 1086,
+        "samples": [
+          1086
+        ]
+      },
+      "triangular attempt": {
+        "median": 16,
+        "worst": 16,
+        "samples": [
+          16
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 9270.0,
+      "worst": 9270.0,
+      "samples": [
+        9270.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 608.0,
+      "worst": 608.0,
+      "samples": [
+        608.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 125.393,
+      "worst": 125.393,
+      "samples": [
+        125.393
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 1255352,
+      "worst": 1255352,
+      "samples": [
+        1255352
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1513033728,
+      "worst": 1513033728,
+      "samples": [
+        1513033728
+      ]
+    },
+    "proofNodes": {
+      "median": 19013,
+      "worst": 19013,
+      "samples": [
+        19013
+      ]
+    }
+  },
+  {
+    "label": "initial50",
+    "case": {
+      "name": "dense-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "20b78f07de829c4bdc20950e449f4c1eb850644fb82b88bc3a6250f751212fa9"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 9.22,
+      "worst": 9.22,
+      "samples": [
+        9.22
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 4795,
+        "worst": 4795,
+        "samples": [
+          4795
+        ]
+      },
+      "extraction": {
+        "median": 8,
+        "worst": 8,
+        "samples": [
+          8
+        ]
+      },
+      "goal connection": {
+        "median": 1,
+        "worst": 1,
+        "samples": [
+          1
+        ]
+      },
+      "input declaration": {
+        "median": 17,
+        "worst": 17,
+        "samples": [
+          17
+        ]
+      },
+      "normalization": {
+        "median": 619,
+        "worst": 619,
+        "samples": [
+          619
+        ]
+      },
+      "parsing": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "producer transport": {
+        "median": 1386,
+        "worst": 1386,
+        "samples": [
+          1386
+        ]
+      },
+      "row kernel proofs": {
+        "median": 4427,
+        "worst": 4427,
+        "samples": [
+          4427
+        ]
+      },
+      "serialization": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "triangular attempt": {
+        "median": 17,
+        "worst": 17,
+        "samples": [
+          17
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 5050.0,
+      "worst": 5050.0,
+      "samples": [
+        5050.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 664.0,
+      "worst": 664.0,
+      "samples": [
+        664.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 1253168,
+      "worst": 1253168,
+      "samples": [
+        1253168
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1519542272,
+      "worst": 1519542272,
+      "samples": [
+        1519542272
+      ]
+    },
+    "proofNodes": {
+      "median": 19012,
+      "worst": 19012,
+      "samples": [
+        19012
+      ]
+    }
+  },
+  {
+    "label": "large256",
+    "case": {
+      "name": "dense-100-256bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 256,
+      "max_actual_bits": 256,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "76ece832ad86930ba27e1e592e1e0cd625ac42b95a4cd496ec31127926328b2e"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 48.319,
+      "worst": 48.319,
+      "samples": [
+        48.319
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 39148,
+        "worst": 39148,
+        "samples": [
+          39148
+        ]
+      },
+      "extraction": {
+        "median": 42,
+        "worst": 42,
+        "samples": [
+          42
+        ]
+      },
+      "goal connection": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "input declaration": {
+        "median": 431,
+        "worst": 431,
+        "samples": [
+          431
+        ]
+      },
+      "normalization": {
+        "median": 2156,
+        "worst": 2156,
+        "samples": [
+          2156
+        ]
+      },
+      "parsing": {
+        "median": 8,
+        "worst": 8,
+        "samples": [
+          8
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 48047,
+        "worst": 48047,
+        "samples": [
+          48047
+        ]
+      },
+      "producer transport": {
+        "median": 1280,
+        "worst": 1280,
+        "samples": [
+          1280
+        ]
+      },
+      "row kernel proofs": {
+        "median": 37671,
+        "worst": 37671,
+        "samples": [
+          37671
+        ]
+      },
+      "serialization": {
+        "median": 185,
+        "worst": 185,
+        "samples": [
+          185
+        ]
+      },
+      "startup and imports": {
+        "median": 1154,
+        "worst": 1154,
+        "samples": [
+          1154
+        ]
+      },
+      "triangular attempt": {
+        "median": 35,
+        "worst": 35,
+        "samples": [
+          35
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 40400.0,
+      "worst": 40400.0,
+      "samples": [
+        40400.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 2990.0,
+      "worst": 2990.0,
+      "samples": [
+        2990.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 271.722,
+      "worst": 271.722,
+      "samples": [
+        271.722
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 3914944,
+      "worst": 3914944,
+      "samples": [
+        3914944
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1801314304,
+      "worst": 1801314304,
+      "samples": [
+        1801314304
+      ]
+    },
+    "proofNodes": {
+      "median": 75058,
+      "worst": 75058,
+      "samples": [
+        75058
+      ]
+    }
+  },
+  {
+    "label": "retry",
+    "case": {
+      "name": "retry-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "retry",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "721b103f6c019c191d6e2b69ec4106cc1187b9e54436e0a79da459c11ab8eac0"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 49.788,
+      "worst": 49.788,
+      "samples": [
+        49.788
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 40671,
+        "worst": 40671,
+        "samples": [
+          40671
+        ]
+      },
+      "extraction": {
+        "median": 42,
+        "worst": 42,
+        "samples": [
+          42
+        ]
+      },
+      "goal connection": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "input declaration": {
+        "median": 83,
+        "worst": 83,
+        "samples": [
+          83
+        ]
+      },
+      "normalization": {
+        "median": 2564,
+        "worst": 2564,
+        "samples": [
+          2564
+        ]
+      },
+      "parsing": {
+        "median": 8,
+        "worst": 8,
+        "samples": [
+          8
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 49505,
+        "worst": 49505,
+        "samples": [
+          49505
+        ]
+      },
+      "producer transport": {
+        "median": 1512,
+        "worst": 1512,
+        "samples": [
+          1512
+        ]
+      },
+      "row kernel proofs": {
+        "median": 38950,
+        "worst": 38950,
+        "samples": [
+          38950
+        ]
+      },
+      "serialization": {
+        "median": 10,
+        "worst": 10,
+        "samples": [
+          10
+        ]
+      },
+      "startup and imports": {
+        "median": 1349,
+        "worst": 1349,
+        "samples": [
+          1349
+        ]
+      },
+      "triangular attempt": {
+        "median": 38,
+        "worst": 38,
+        "samples": [
+          38
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 41400.0,
+      "worst": 41400.0,
+      "samples": [
+        41400.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 2710.0,
+      "worst": 2710.0,
+      "samples": [
+        2710.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 283.341,
+      "worst": 283.341,
+      "samples": [
+        283.341
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 3380184,
+      "worst": 3380184,
+      "samples": [
+        3380184
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1803960320,
+      "worst": 1803960320,
+      "samples": [
+        1803960320
+      ]
+    },
+    "proofNodes": {
+      "median": 75549,
+      "worst": 75549,
+      "samples": [
+        75549
+      ]
+    }
+  },
+  {
+    "label": "scale128",
+    "case": {
+      "name": "dense-128-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 128,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261236,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "3d178498461d58293c208ae0ca05cb04ecc9e36ff58cd12ac9c7605a2b8236a9"
+    },
+    "successfulRuns": 2,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 94.777,
+      "worst": 95.018,
+      "samples": [
+        94.536,
+        95.018
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 82370.0,
+        "worst": 82618,
+        "samples": [
+          82618,
+          82122
+        ]
+      },
+      "extraction": {
+        "median": 64.0,
+        "worst": 67,
+        "samples": [
+          67,
+          61
+        ]
+      },
+      "goal connection": {
+        "median": 4.0,
+        "worst": 5,
+        "samples": [
+          3,
+          5
+        ]
+      },
+      "input declaration": {
+        "median": 121.5,
+        "worst": 134,
+        "samples": [
+          134,
+          109
+        ]
+      },
+      "normalization": {
+        "median": 3743.5,
+        "worst": 3920,
+        "samples": [
+          3567,
+          3920
+        ]
+      },
+      "parsing": {
+        "median": 12.5,
+        "worst": 13,
+        "samples": [
+          12,
+          13
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 94392.5,
+        "worst": 94651,
+        "samples": [
+          94134,
+          94651
+        ]
+      },
+      "producer transport": {
+        "median": 1329.0,
+        "worst": 1370,
+        "samples": [
+          1288,
+          1370
+        ]
+      },
+      "row kernel proofs": {
+        "median": 79781.5,
+        "worst": 79993,
+        "samples": [
+          79993,
+          79570
+        ]
+      },
+      "serialization": {
+        "median": 12.5,
+        "worst": 13,
+        "samples": [
+          13,
+          12
+        ]
+      },
+      "startup and imports": {
+        "median": 1010.0,
+        "worst": 1015,
+        "samples": [
+          1015,
+          1005
+        ]
+      },
+      "triangular attempt": {
+        "median": 64.5,
+        "worst": 68,
+        "samples": [
+          61,
+          68
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 84400.0,
+      "worst": 84500.0,
+      "samples": [
+        84300.0,
+        84500.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 5020.0,
+      "worst": 5330.0,
+      "samples": [
+        4710.0,
+        5330.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 384.537,
+      "worst": 402.311,
+      "samples": [
+        402.311,
+        366.763
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 5131400.0,
+      "worst": 5131400,
+      "samples": [
+        5131400,
+        5131400
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 2033178624.0,
+      "worst": 2033242112,
+      "samples": [
+        2033115136,
+        2033242112
+      ]
+    },
+    "proofNodes": {
+      "median": 122503.0,
+      "worst": 122503,
+      "samples": [
+        122503,
+        122503
+      ]
+    }
+  },
+  {
+    "label": "scale200",
+    "case": {
+      "name": "dense-200-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 200,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261308,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "cc2baa256235c12aefe35b28bfa21f4cb653fa7c8f1fdc73bf7e8b568d55fe4c"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 384.988,
+      "worst": 384.988,
+      "samples": [
+        384.988
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 356176,
+        "worst": 356176,
+        "samples": [
+          356176
+        ]
+      },
+      "extraction": {
+        "median": 205,
+        "worst": 205,
+        "samples": [
+          205
+        ]
+      },
+      "goal connection": {
+        "median": 11,
+        "worst": 11,
+        "samples": [
+          11
+        ]
+      },
+      "input declaration": {
+        "median": 430,
+        "worst": 430,
+        "samples": [
+          430
+        ]
+      },
+      "normalization": {
+        "median": 8883,
+        "worst": 8883,
+        "samples": [
+          8883
+        ]
+      },
+      "parsing": {
+        "median": 30,
+        "worst": 30,
+        "samples": [
+          30
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 383965,
+        "worst": 383965,
+        "samples": [
+          383965
+        ]
+      },
+      "producer transport": {
+        "median": 1439,
+        "worst": 1439,
+        "samples": [
+          1439
+        ]
+      },
+      "row kernel proofs": {
+        "median": 349167,
+        "worst": 349167,
+        "samples": [
+          349167
+        ]
+      },
+      "serialization": {
+        "median": 40,
+        "worst": 40,
+        "samples": [
+          40
+        ]
+      },
+      "startup and imports": {
+        "median": 1138,
+        "worst": 1138,
+        "samples": [
+          1138
+        ]
+      },
+      "triangular attempt": {
+        "median": 146,
+        "worst": 146,
+        "samples": [
+          146
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 362000.0,
+      "worst": 362000.0,
+      "samples": [
+        362000.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 13900.0,
+      "worst": 13900.0,
+      "samples": [
+        13900.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 1022.833,
+      "worst": 1022.833,
+      "samples": [
+        1022.833
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 11672760,
+      "worst": 11672760,
+      "samples": [
+        11672760
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 2902986752,
+      "worst": 2902986752,
+      "samples": [
+        2902986752
+      ]
+    },
+    "proofNodes": {
+      "median": 297386,
+      "worst": 297386,
+      "samples": [
+        297386
+      ]
+    }
+  },
+  {
+    "label": "slow-native125",
+    "case": {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "b267c056cc26d73540f5d93a8a9983a1320acafca4e52b30cd540951a2583d02"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 125.881,
+      "worst": 125.881,
+      "samples": [
+        125.881
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 54326,
+        "worst": 54326,
+        "samples": [
+          54326
+        ]
+      },
+      "extraction": {
+        "median": 69,
+        "worst": 69,
+        "samples": [
+          69
+        ]
+      },
+      "goal connection": {
+        "median": 31,
+        "worst": 31,
+        "samples": [
+          31
+        ]
+      },
+      "input declaration": {
+        "median": 14491,
+        "worst": 14491,
+        "samples": [
+          14491
+        ]
+      },
+      "normalization": {
+        "median": 4425,
+        "worst": 4425,
+        "samples": [
+          4425
+        ]
+      },
+      "parsing": {
+        "median": 20,
+        "worst": 20,
+        "samples": [
+          20
+        ]
+      },
+      "producer transport": {
+        "median": 6237,
+        "worst": 6237,
+        "samples": [
+          6237
+        ]
+      },
+      "row kernel proofs": {
+        "median": 50658,
+        "worst": 50658,
+        "samples": [
+          50658
+        ]
+      },
+      "serialization": {
+        "median": 18,
+        "worst": 18,
+        "samples": [
+          18
+        ]
+      },
+      "triangular attempt": {
+        "median": 84,
+        "worst": 84,
+        "samples": [
+          84
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 59500.0,
+      "worst": 59500.0,
+      "samples": [
+        59500.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 9000.0,
+      "worst": 9000.0,
+      "samples": [
+        9000.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 33980640,
+      "worst": 33980640,
+      "samples": [
+        33980640
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 3538235392,
+      "worst": 3538235392,
+      "samples": [
+        3538235392
+      ]
+    },
+    "proofNodes": {
+      "median": 94912,
+      "worst": 94912,
+      "samples": [
+        94912
+      ]
+    }
+  },
+  {
+    "label": "slow-native92",
+    "case": {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "4fe6851228445df82ef98038a7f73f7ff222603933424c534bcb4f7d22bd156c"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 92.621,
+      "worst": 92.621,
+      "samples": [
+        92.621
+      ]
+    },
+    "phasesMs": {
+      "certificate proof": {
+        "median": 67782,
+        "worst": 67782,
+        "samples": [
+          67782
+        ]
+      },
+      "extraction": {
+        "median": 42,
+        "worst": 42,
+        "samples": [
+          42
+        ]
+      },
+      "goal connection": {
+        "median": 2,
+        "worst": 2,
+        "samples": [
+          2
+        ]
+      },
+      "input declaration": {
+        "median": 87,
+        "worst": 87,
+        "samples": [
+          87
+        ]
+      },
+      "normalization": {
+        "median": 3026,
+        "worst": 3026,
+        "samples": [
+          3026
+        ]
+      },
+      "parsing": {
+        "median": 10,
+        "worst": 10,
+        "samples": [
+          10
+        ]
+      },
+      "producer transport": {
+        "median": 3065,
+        "worst": 3065,
+        "samples": [
+          3065
+        ]
+      },
+      "row kernel proofs": {
+        "median": 65551,
+        "worst": 65551,
+        "samples": [
+          65551
+        ]
+      },
+      "serialization": {
+        "median": 12,
+        "worst": 12,
+        "samples": [
+          12
+        ]
+      },
+      "triangular attempt": {
+        "median": 31,
+        "worst": 31,
+        "samples": [
+          31
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 70600.0,
+      "worst": 70600.0,
+      "samples": [
+        70600.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 5130.0,
+      "worst": 5130.0,
+      "samples": [
+        5130.0
+      ]
+    },
+    "exportAndExitMs": null,
+    "allOleanPartsBytes": {
+      "median": 3386544,
+      "worst": 3386544,
+      "samples": [
+        3386544
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 2150477824,
+      "worst": 2150477824,
+      "samples": [
+        2150477824
+      ]
+    },
+    "proofNodes": {
+      "median": 75017,
+      "worst": 75017,
+      "samples": [
+        75017
+      ]
+    }
+  },
+  {
+    "label": "triangular",
+    "case": {
+      "name": "triangular-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "71d5176436ccce896bf4196cd771d9ad8d5c827dde19708a34bc44f30a4e41f1"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 1.829,
+      "worst": 1.829,
+      "samples": [
+        1.829
+      ]
+    },
+    "phasesMs": {
+      "input declaration": {
+        "median": 15,
+        "worst": 15,
+        "samples": [
+          15
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 1750,
+        "worst": 1750,
+        "samples": [
+          1750
+        ]
+      },
+      "startup and imports": {
+        "median": 1106,
+        "worst": 1106,
+        "samples": [
+          1106
+        ]
+      },
+      "triangular route": {
+        "median": 108,
+        "worst": 108,
+        "samples": [
+          108
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 194.0,
+      "worst": 194.0,
+      "samples": [
+        194.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 194.0,
+      "worst": 194.0,
+      "samples": [
+        194.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 79.468,
+      "worst": 79.468,
+      "samples": [
+        79.468
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 919928,
+      "worst": 919928,
+      "samples": [
+        919928
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1464950784,
+      "worst": 1464950784,
+      "samples": [
+        1464950784
+      ]
+    },
+    "proofNodes": {
+      "median": 10250,
+      "worst": 10250,
+      "samples": [
+        10250
+      ]
+    }
+  },
+  {
+    "label": "triangular",
+    "case": {
+      "name": "triangular-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "37fa6d21aa59f9ea9c4fcc703a014738d2ff0ba96f385b2cbee3e3351fa81cb6"
+    },
+    "successfulRuns": 1,
+    "failedRuns": 0,
+    "wallSeconds": {
+      "median": 2.782,
+      "worst": 2.782,
+      "samples": [
+        2.782
+      ]
+    },
+    "phasesMs": {
+      "input declaration": {
+        "median": 54,
+        "worst": 54,
+        "samples": [
+          54
+        ]
+      },
+      "pre-export elapsed": {
+        "median": 2638,
+        "worst": 2638,
+        "samples": [
+          2638
+        ]
+      },
+      "startup and imports": {
+        "median": 1135,
+        "worst": 1135,
+        "samples": [
+          1135
+        ]
+      },
+      "triangular route": {
+        "median": 288,
+        "worst": 288,
+        "samples": [
+          288
+        ]
+      }
+    },
+    "kernelMs": {
+      "median": 790.0,
+      "worst": 790.0,
+      "samples": [
+        790.0
+      ]
+    },
+    "finalDeclarationKernelMs": {
+      "median": 790.0,
+      "worst": 790.0,
+      "samples": [
+        790.0
+      ]
+    },
+    "exportAndExitMs": {
+      "median": 144.125,
+      "worst": 144.125,
+      "samples": [
+        144.125
+      ]
+    },
+    "allOleanPartsBytes": {
+      "median": 1907552,
+      "worst": 1907552,
+      "samples": [
+        1907552
+      ]
+    },
+    "peakLeanRssBytes": {
+      "median": 1575346176,
+      "worst": 1575346176,
+      "samples": [
+        1575346176
+      ]
+    },
+    "proofNodes": {
+      "median": 36363,
+      "worst": 36363,
+      "samples": [
+        36363
+      ]
+    }
+  }
+]

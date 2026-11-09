@@ -1,0 +1,18 @@
+{
+  "generator_sage_version": "10.10",
+  "method": "GL(n, GF(p)).random_element(), lifted by signed multiples of p",
+  "cases": [
+    {
+      "name": "dense-50-20bit-full-inverse-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "full-inverse",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "a3f8c9789522ca88736a3d9faeb756357270eadca44c25e4f1a10cb8705b465c"
+    }
+  ]
+}

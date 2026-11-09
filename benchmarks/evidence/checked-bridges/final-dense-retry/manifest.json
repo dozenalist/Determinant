@@ -1,0 +1,18 @@
+{
+  "generator_sage_version": "10.10",
+  "method": "GL(n, GF(p)).random_element(), lifted by signed multiples of p",
+  "cases": [
+    {
+      "name": "retry-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "retry",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "721b103f6c019c191d6e2b69ec4106cc1187b9e54436e0a79da459c11ab8eac0"
+    }
+  ]
+}

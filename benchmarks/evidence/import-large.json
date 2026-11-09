@@ -1,0 +1,7 @@
+{
+  "exitCode": 0,
+  "seconds": 1.109,
+  "stdout": "benchmark : benchmarkMatrix.det \u2260 0\n'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+  "stderr": "",
+  "producer": "deliberately unavailable"
+}

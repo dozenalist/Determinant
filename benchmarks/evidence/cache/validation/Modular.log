@@ -1,0 +1,6 @@
+'ModularTests.dense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ModularTests.denseKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ModularTests.denseArithmetic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ModularTests.composite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ModularTests.signedLarge' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ModularTests.reducedComposite' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'DeterminantTests.positive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.negative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.hundred' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.named_ok' depends on axioms: [propext, Classical.choice, Quot.sound]
+'DeterminantTests.symbolic' depends on axioms: [propext, Classical.choice, Quot.sound]

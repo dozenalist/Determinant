@@ -1,0 +1,58 @@
+--- a/Determinant/Tactic/Modular.lean
++++ b/Determinant/Tactic/Modular.lean
+@@ -43,7 +43,8 @@
+     throwError "kernel computation rejected the certificate"
+   mkDecideProofQ proposition
+ 
+-/-- Normalize each signed original entry once, retaining a checked congruence for it. -/
++/-- Normalize signed entries while proving conversion from the actual original expressions.
++Large bridges are checked once in a synchronous auxiliary theorem. -/
+ private def normalize (p n : Nat) (entries : Array (Array Expr)) :
+     MetaM ((original : Q(List (List ℤ))) × (a : ListMatrixLit q(ℤ) n n) ×
+       Q(residueRows $p $original = $(a.lit))) := do
+@@ -60,9 +61,18 @@
+     normalized := normalized.push normalizedRow
+   let original := ListMatrixLit.ofArray (α := q(ℤ)) q(inferInstance) n n entries
+   let a := ListMatrixLit.ofArray (α := q(ℤ)) q(inferInstance) n n normalized
+-  unless ← withTransparency .all <| isDefEq q(residueRows $p $(original.lit)) a.lit do
+-    throwError "modular certificate: normalization does not match the original integer entries"
+   let h ← mkEqRefl a.lit
++  let h ← if n > 16 then
++      -- Kernel conversion checks the original expressions, including local numeral
++      -- instances. Zeta reduction preserves the values of local entry definitions
++      -- before closure abstraction would turn them into arbitrary parameters.
++      withOptions (fun options => options.setBool `Elab.async false) <|
++        mkAuxTheorem q(residueRows $p $(original.lit) = $(a.lit)) h
++          (zetaDelta := true) (cache := false)
++    else do
++      unless ← withTransparency .all <| isDefEq q(residueRows $p $(original.lit)) a.lit do
++        throwError "modular certificate: normalization does not match the original integer entries"
++      pure h
+   return ⟨original.lit, a, h⟩
+ 
+ /-- Expand shared list dot products, then prove the required integer remainders. -/
+@@ -115,11 +125,20 @@
+   have hrows : Q(List.length $an = $n) := ← mkEqRefl (mkRawNatLit n)
+   have hwidth : Q(($an).all (fun row => row.length == $n) = true) := Lean.reflBoolTrue
+   have hbt : Q(List.length $tn = $n) := ← mkEqRefl (mkRawNatLit n)
+-  unless ← withTransparency .all <|
+-      isDefEq q(ListMatrix.transpose $n (intRows $bn)) q(intRows $tn) do
+-    throwError "modular certificate: transpose does not match the inverse entries"
++  let transposeProof ← mkEqRefl q(intRows $tn)
++  let transposeProof ← if n > 16 then
++      -- Check the quadratic transpose conversion once, then reference its theorem
++      -- instead of repeating the conversion in the final determinant declaration.
++      withOptions (fun options => options.setBool `Elab.async false) <|
++        mkAuxTheorem q(ListMatrix.transpose $n (intRows $bn) = intRows $tn)
++          transposeProof (cache := false)
++    else do
++      unless ← withTransparency .all <|
++          isDefEq q(ListMatrix.transpose $n (intRows $bn)) q(intRows $tn) do
++        throwError "modular certificate: transpose does not match the inverse entries"
++      pure transposeProof
+   have ht : Q(ListMatrix.transpose $n (intRows $bn) = intRows $tn) :=
+-    ← mkEqRefl q(intRows $tn)
++    transposeProof
+   -- This compiled preflight is only a rejection aid. Reflexivity proofs require
+   -- the kernel to reduce each actual Boolean to true. No native axiom is used.
+   unless checkNat upper n p (values.toList.map Array.toList) tValues.toList do

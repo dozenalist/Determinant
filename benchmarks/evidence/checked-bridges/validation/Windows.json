@@ -1,0 +1,16 @@
+{
+  "build": {
+    "command": "lake build",
+    "ELAN_HOME": "C:\\Users\\carte\\.elan",
+    "exitCode": 0,
+    "jobs": 1913
+  },
+  "producerTests": {
+    "interpreter": "Windows Python 3.11",
+    "command": "python3.11.exe -m unittest discover -s tests -p test_*.py -v",
+    "exitCode": 0,
+    "tests": 9,
+    "skipped": 4,
+    "skipReason": "SageMath is not installed in this Python environment"
+  }
+}

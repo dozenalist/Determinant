@@ -1,0 +1,35 @@
+name: Lean Action CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v7
+      - uses: leanprover/lean-action@v1
+      - name: Check triangular tactic and theorem axioms
+        run: lake env lean tests/Triangular.lean
+      - name: Check modular certificates and theorem axioms
+        run: lake env lean tests/Modular.lean
+      - name: Check combined dispatcher and theorem axioms
+        run: |
+          lake env lean tests/Dispatch.lean
+          lake build Mathlib.Basic.Complex.Basic
+          lake env lean tests/CharZero.lean
+          lake env lean tests/ModularRows.lean
+      - name: Check producer protocol and bounded process bridge
+        run: |
+          python3 -m unittest discover -s tests -p 'test_*.py' -v
+          lake env lean tests/Bridge.lean
+      - name: Check persistent witnesses and fresh offline replay
+        run: |
+          lake env lean tests/Cache.lean
+          lake env lean tests/CacheReplay.lean

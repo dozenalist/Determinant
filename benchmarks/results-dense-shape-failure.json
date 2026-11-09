@@ -1,0 +1,34 @@
+[
+    {
+        "case":  {
+                     "name":  "dense-100-20bit-unit-upper-product-lists-constructors",
+                     "dimension":  100,
+                     "entry_bits":  20,
+                     "max_actual_bits":  20,
+                     "variant":  "dense",
+                     "seed":  20261208,
+                     "kind":  "unit-upper-product",
+                     "representation":  "lists",
+                     "entry_syntax":  "constructors",
+                     "source_sha256":  "82029d8ec8f734777ca592c38c8a48250716179d0476d834a09dee47f603ffd5"
+                 },
+        "run":  1,
+        "wallSeconds":  131.997,
+        "exitCode":  1,
+        "timedOut":  false,
+        "peakLeanProcessBytes":  1603850240,
+        "peakCombinedLeanSampleBytes":  2072510464,
+        "oleanBytes":  0,
+        "allOleanPartsBytes":  null,
+        "proofNodes":  null,
+        "sourceBytes":  191355,
+        "axiomReport":  "[propext, sorryAx, Classical.choice, Quot.sound]",
+        "finalKernelMs":  1.14,
+        "phasesMs":  {
+                         "input declaration":  42010,
+                         "triangular attempt":  243
+                     },
+        "producer":  null,
+        "log":  "dense-100-20bit-unit-upper-product-lists-constructors-run1.log"
+    }
+]

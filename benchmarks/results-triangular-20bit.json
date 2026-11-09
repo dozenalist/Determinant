@@ -1,0 +1,137 @@
+﻿[
+    {
+        "Dimension":  10,
+        "EntryBits":  20,
+        "Run":  1,
+        "Seconds":  29.63,
+        "SourceBytes":  864,
+        "OLeanBytes":  372208,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  10,
+        "EntryBits":  20,
+        "Run":  2,
+        "Seconds":  27.452,
+        "SourceBytes":  864,
+        "OLeanBytes":  372208,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  10,
+        "EntryBits":  20,
+        "Run":  3,
+        "Seconds":  27.128,
+        "SourceBytes":  864,
+        "OLeanBytes":  372208,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  50,
+        "EntryBits":  20,
+        "Run":  1,
+        "Seconds":  18.877,
+        "SourceBytes":  14824,
+        "OLeanBytes":  6106816,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  50,
+        "EntryBits":  20,
+        "Run":  2,
+        "Seconds":  19.048,
+        "SourceBytes":  14824,
+        "OLeanBytes":  6106816,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  50,
+        "EntryBits":  20,
+        "Run":  3,
+        "Seconds":  20.982,
+        "SourceBytes":  14824,
+        "OLeanBytes":  6106816,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  100,
+        "EntryBits":  20,
+        "Run":  1,
+        "Seconds":  27.163,
+        "SourceBytes":  58151,
+        "OLeanBytes":  21465496,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  100,
+        "EntryBits":  20,
+        "Run":  2,
+        "Seconds":  28.109,
+        "SourceBytes":  58151,
+        "OLeanBytes":  21465496,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  100,
+        "EntryBits":  20,
+        "Run":  3,
+        "Seconds":  28.984,
+        "SourceBytes":  58151,
+        "OLeanBytes":  21465496,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  128,
+        "EntryBits":  20,
+        "Run":  1,
+        "Seconds":  41.17,
+        "SourceBytes":  94971,
+        "OLeanBytes":  33424304,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  128,
+        "EntryBits":  20,
+        "Run":  2,
+        "Seconds":  58.953,
+        "SourceBytes":  94971,
+        "OLeanBytes":  33424304,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  128,
+        "EntryBits":  20,
+        "Run":  3,
+        "Seconds":  40.347,
+        "SourceBytes":  94971,
+        "OLeanBytes":  33424304,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  200,
+        "EntryBits":  20,
+        "Run":  1,
+        "Seconds":  215.429,
+        "SourceBytes":  231051,
+        "OLeanBytes":  77228528,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  200,
+        "EntryBits":  20,
+        "Run":  2,
+        "Seconds":  277.496,
+        "SourceBytes":  231051,
+        "OLeanBytes":  77228528,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    },
+    {
+        "Dimension":  200,
+        "EntryBits":  20,
+        "Run":  3,
+        "Seconds":  310.485,
+        "SourceBytes":  231051,
+        "OLeanBytes":  77228528,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]"
+    }
+]

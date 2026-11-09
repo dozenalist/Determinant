@@ -1,0 +1,25 @@
+{
+  "workspace": "/tmp/determinant-linux",
+  "lean": "/tmp/determinant-lean/lean-4.35.0-linux/bin/lean",
+  "lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "lean_path": [
+    "/tmp/determinant-linux/.lake/build/lib/lean",
+    "/tmp/determinant-linux/dependencies/mathlib",
+    "/tmp/determinant-linux/dependencies/plausible",
+    "/tmp/determinant-linux/dependencies/LeanSearchClient",
+    "/tmp/determinant-linux/dependencies/importGraph",
+    "/tmp/determinant-linux/dependencies/proofwidgets",
+    "/tmp/determinant-linux/dependencies/aesop",
+    "/tmp/determinant-linux/dependencies/Qq",
+    "/tmp/determinant-linux/dependencies/batteries",
+    "/tmp/determinant-linux/dependencies/Cli"
+  ],
+  "source_root": "/mnt/c/Users/carte/lean/ModularFormsBridge/Determinant",
+  "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "processor": "",
+  "logical_cpus": 8,
+  "visible_ram": 8147103744,
+  "psutil_version": "7.2.2",
+  "invocation": "native lean -R WORKSPACE -o ARTIFACT SOURCE; dependencies built before timing"
+}

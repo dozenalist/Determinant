@@ -1,0 +1,842 @@
+[
+  {
+    "implementation": "initial-baseline",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      5.859,
+      4.644,
+      4.905
+    ],
+    "medianSeconds": 4.905,
+    "worstSeconds": 5.859,
+    "medianPhasesMs": {
+      "startup and imports": 780,
+      "input declaration": 14,
+      "triangular attempt": 10,
+      "extraction": 6,
+      "serialization": 2,
+      "producer transport": 996,
+      "parsing": 2,
+      "normalization": 303,
+      "row kernel proofs": 1623,
+      "certificate proof": 1825,
+      "goal connection": 1,
+      "pre-export elapsed": 4803
+    },
+    "medianCumulativeKernelMs": 2029.9999999999998,
+    "medianFinalKernelMs": 440.0,
+    "maxPeakLeanBytes": 1519902720,
+    "allOleanPartsBytes": [
+      1255344,
+      1255344,
+      1255344
+    ],
+    "proofNodes": [
+      19012,
+      19012,
+      19012
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "initial-baseline",
+    "dimension": 100,
+    "count": 3,
+    "wallSeconds": [
+      23.739,
+      27.844,
+      23.525
+    ],
+    "medianSeconds": 23.739,
+    "worstSeconds": 27.844,
+    "medianPhasesMs": {
+      "startup and imports": 1011,
+      "input declaration": 55,
+      "triangular attempt": 24,
+      "extraction": 26,
+      "serialization": 7,
+      "producer transport": 1029,
+      "parsing": 6,
+      "normalization": 1502,
+      "row kernel proofs": 16762,
+      "certificate proof": 17746,
+      "goal connection": 3,
+      "pre-export elapsed": 23537
+    },
+    "medianCumulativeKernelMs": 18700.0,
+    "medianFinalKernelMs": 2480.0,
+    "maxPeakLeanBytes": 1801289728,
+    "allOleanPartsBytes": [
+      3350528,
+      3350528,
+      3350528
+    ],
+    "proofNodes": [
+      74936,
+      74936,
+      74936
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "initial-bridges",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      4.048
+    ],
+    "medianSeconds": 4.048,
+    "worstSeconds": 4.048,
+    "medianPhasesMs": {
+      "startup and imports": 781,
+      "input declaration": 14,
+      "triangular attempt": 9,
+      "extraction": 6,
+      "serialization": 2,
+      "producer transport": 958,
+      "parsing": 2,
+      "normalization": 123,
+      "row kernel proofs": 1527,
+      "certificate proof": 1722,
+      "goal connection": 1,
+      "pre-export elapsed": 3926
+    },
+    "medianCumulativeKernelMs": 1870.0,
+    "medianFinalKernelMs": 82.2,
+    "maxPeakLeanBytes": 1478541312,
+    "allOleanPartsBytes": [
+      1256496
+    ],
+    "proofNodes": [
+      16636
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "initial-bridges",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      19.017
+    ],
+    "medianSeconds": 19.017,
+    "worstSeconds": 19.017,
+    "medianPhasesMs": {
+      "startup and imports": 760,
+      "input declaration": 46,
+      "triangular attempt": 24,
+      "extraction": 25,
+      "serialization": 7,
+      "producer transport": 893,
+      "parsing": 5,
+      "normalization": 543,
+      "row kernel proofs": 14677,
+      "certificate proof": 15700,
+      "goal connection": 4,
+      "pre-export elapsed": 18762
+    },
+    "medianCumulativeKernelMs": 16400.0,
+    "medianFinalKernelMs": 380.0,
+    "maxPeakLeanBytes": 1659850752,
+    "allOleanPartsBytes": [
+      3351680
+    ],
+    "proofNodes": [
+      65273
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-confirm",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      38.757,
+      10.63,
+      9.4
+    ],
+    "medianSeconds": 10.63,
+    "worstSeconds": 38.757,
+    "medianPhasesMs": {
+      "startup and imports": 1923,
+      "input declaration": 30,
+      "triangular attempt": 18,
+      "extraction": 12,
+      "serialization": 2,
+      "producer transport": 1709,
+      "parsing": 5,
+      "normalization": 749,
+      "row kernel proofs": 3555,
+      "certificate proof": 4033,
+      "goal connection": 1,
+      "pre-export elapsed": 10311
+    },
+    "medianCumulativeKernelMs": 4640.0,
+    "medianFinalKernelMs": 1020.0,
+    "maxPeakLeanBytes": 1516224512,
+    "allOleanPartsBytes": [
+      1255344,
+      1255344,
+      1255344
+    ],
+    "proofNodes": [
+      19012,
+      19012,
+      19012
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-confirm",
+    "dimension": 100,
+    "count": 3,
+    "wallSeconds": [
+      48.969,
+      63.352,
+      42.806
+    ],
+    "medianSeconds": 48.969,
+    "worstSeconds": 63.352,
+    "medianPhasesMs": {
+      "startup and imports": 1723,
+      "input declaration": 88,
+      "triangular attempt": 42,
+      "extraction": 55,
+      "serialization": 11,
+      "producer transport": 2068,
+      "parsing": 15,
+      "normalization": 3318,
+      "row kernel proofs": 35738,
+      "certificate proof": 37173,
+      "goal connection": 2,
+      "pre-export elapsed": 48332
+    },
+    "medianCumulativeKernelMs": 39500.0,
+    "medianFinalKernelMs": 3990.0,
+    "maxPeakLeanBytes": 1798041600,
+    "allOleanPartsBytes": [
+      3350528,
+      3350528,
+      3350528
+    ],
+    "proofNodes": [
+      74936,
+      74936,
+      74936
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "bridges-confirm",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      44.474,
+      7.527,
+      9.728
+    ],
+    "medianSeconds": 9.728,
+    "worstSeconds": 44.474,
+    "medianPhasesMs": {
+      "startup and imports": 1817,
+      "input declaration": 25,
+      "triangular attempt": 17,
+      "extraction": 9,
+      "serialization": 2,
+      "producer transport": 2108,
+      "parsing": 4,
+      "normalization": 266,
+      "row kernel proofs": 2768,
+      "certificate proof": 3348,
+      "goal connection": 2,
+      "pre-export elapsed": 9465
+    },
+    "medianCumulativeKernelMs": 3990.0,
+    "medianFinalKernelMs": 162.0,
+    "maxPeakLeanBytes": 1476165632,
+    "allOleanPartsBytes": [
+      1256496,
+      1256496,
+      1256496
+    ],
+    "proofNodes": [
+      16636,
+      16636,
+      16636
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "bridges-confirm",
+    "dimension": 100,
+    "count": 3,
+    "wallSeconds": [
+      34.788,
+      41.783,
+      44.964
+    ],
+    "medianSeconds": 41.783,
+    "worstSeconds": 44.964,
+    "medianPhasesMs": {
+      "startup and imports": 1663,
+      "input declaration": 109,
+      "triangular attempt": 49,
+      "extraction": 55,
+      "serialization": 12,
+      "producer transport": 2096,
+      "parsing": 18,
+      "normalization": 1884,
+      "row kernel proofs": 30731,
+      "certificate proof": 33118,
+      "goal connection": 22,
+      "pre-export elapsed": 41345
+    },
+    "medianCumulativeKernelMs": 35400.0,
+    "medianFinalKernelMs": 1130.0,
+    "maxPeakLeanBytes": 1659768832,
+    "allOleanPartsBytes": [
+      3351680,
+      3351680,
+      3351680
+    ],
+    "proofNodes": [
+      65273,
+      65273,
+      65273
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-full50",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      11.928,
+      17.382,
+      15.518
+    ],
+    "medianSeconds": 15.518,
+    "worstSeconds": 17.382,
+    "medianPhasesMs": {
+      "startup and imports": 1784,
+      "input declaration": 27,
+      "triangular attempt": 20,
+      "extraction": 12,
+      "serialization": 2,
+      "producer transport": 1820,
+      "parsing": 4,
+      "normalization": 799,
+      "row kernel proofs": 6403,
+      "certificate proof": 6898,
+      "goal connection": 1,
+      "pre-export elapsed": 15376
+    },
+    "medianCumulativeKernelMs": 7060.0,
+    "medianFinalKernelMs": 817.0,
+    "maxPeakLeanBytes": 1516285952,
+    "allOleanPartsBytes": [
+      1255312,
+      1255312,
+      1255312
+    ],
+    "proofNodes": [
+      19013,
+      19013,
+      19013
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "bridges-full50",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      12.214,
+      9.029,
+      12.704
+    ],
+    "medianSeconds": 12.214,
+    "worstSeconds": 12.704,
+    "medianPhasesMs": {
+      "startup and imports": 2215,
+      "input declaration": 33,
+      "triangular attempt": 18,
+      "extraction": 11,
+      "serialization": 3,
+      "producer transport": 1576,
+      "parsing": 4,
+      "normalization": 216,
+      "row kernel proofs": 5814,
+      "certificate proof": 6275,
+      "goal connection": 5,
+      "pre-export elapsed": 11842
+    },
+    "medianCumulativeKernelMs": 6590.0,
+    "medianFinalKernelMs": 188.0,
+    "maxPeakLeanBytes": 1476608000,
+    "allOleanPartsBytes": [
+      1256464,
+      1256464,
+      1256464
+    ],
+    "proofNodes": [
+      16637,
+      16637,
+      16637
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "block2",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      6.068
+    ],
+    "medianSeconds": 6.068,
+    "worstSeconds": 6.068,
+    "medianPhasesMs": {
+      "startup and imports": 794,
+      "input declaration": 12,
+      "triangular attempt": 9,
+      "extraction": 6,
+      "serialization": 2,
+      "producer transport": 2258,
+      "parsing": 2,
+      "normalization": 270,
+      "row kernel proofs": 1720,
+      "certificate proof": 1918,
+      "goal connection": 0,
+      "pre-export elapsed": 5971
+    },
+    "medianCumulativeKernelMs": 2160.0,
+    "medianFinalKernelMs": 464.0,
+    "maxPeakLeanBytes": 1522102272,
+    "allOleanPartsBytes": [
+      1241464
+    ],
+    "proofNodes": [
+      18848
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "block2",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      24.741
+    ],
+    "medianSeconds": 24.741,
+    "worstSeconds": 24.741,
+    "medianPhasesMs": {
+      "startup and imports": 723,
+      "input declaration": 50,
+      "triangular attempt": 19,
+      "extraction": 22,
+      "serialization": 5,
+      "producer transport": 1228,
+      "parsing": 6,
+      "normalization": 1458,
+      "row kernel proofs": 17270,
+      "certificate proof": 18422,
+      "goal connection": 2,
+      "pre-export elapsed": 24473
+    },
+    "medianCumulativeKernelMs": 19300.0,
+    "medianFinalKernelMs": 2200.0,
+    "maxPeakLeanBytes": 1805287424,
+    "allOleanPartsBytes": [
+      3322248
+    ],
+    "proofNodes": [
+      74597
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "block4",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      5.15
+    ],
+    "medianSeconds": 5.15,
+    "worstSeconds": 5.15,
+    "medianPhasesMs": {
+      "startup and imports": 817,
+      "input declaration": 30,
+      "triangular attempt": 16,
+      "extraction": 11,
+      "serialization": 2,
+      "producer transport": 1209,
+      "parsing": 1,
+      "normalization": 324,
+      "row kernel proofs": 1753,
+      "certificate proof": 2040,
+      "goal connection": 1,
+      "pre-export elapsed": 5055
+    },
+    "medianCumulativeKernelMs": 2090.0,
+    "medianFinalKernelMs": 355.0,
+    "maxPeakLeanBytes": 1523740672,
+    "allOleanPartsBytes": [
+      1232368
+    ],
+    "proofNodes": [
+      18696
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "block4",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      28.643
+    ],
+    "medianSeconds": 28.643,
+    "worstSeconds": 28.643,
+    "medianPhasesMs": {
+      "startup and imports": 767,
+      "input declaration": 81,
+      "triangular attempt": 40,
+      "extraction": 54,
+      "serialization": 11,
+      "producer transport": 1047,
+      "parsing": 6,
+      "normalization": 1420,
+      "row kernel proofs": 19566,
+      "certificate proof": 20476,
+      "goal connection": 6,
+      "pre-export elapsed": 28353
+    },
+    "medianCumulativeKernelMs": 23300.0,
+    "medianFinalKernelMs": 3930.0,
+    "maxPeakLeanBytes": 1849917440,
+    "allOleanPartsBytes": [
+      3303104
+    ],
+    "proofNodes": [
+      74274
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "accumulator",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      11.697
+    ],
+    "medianSeconds": 11.697,
+    "worstSeconds": 11.697,
+    "medianPhasesMs": {
+      "startup and imports": 1707,
+      "input declaration": 29,
+      "triangular attempt": 17,
+      "extraction": 10,
+      "serialization": 3,
+      "producer transport": 5760,
+      "parsing": 6,
+      "normalization": 310,
+      "row kernel proofs": 2732,
+      "certificate proof": 3134,
+      "goal connection": 2,
+      "pre-export elapsed": 11544
+    },
+    "medianCumulativeKernelMs": 3420.0,
+    "medianFinalKernelMs": 124.0,
+    "maxPeakLeanBytes": 1476571136,
+    "allOleanPartsBytes": [
+      1256496
+    ],
+    "proofNodes": [
+      16636
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "accumulator",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      42.957
+    ],
+    "medianSeconds": 42.957,
+    "worstSeconds": 42.957,
+    "medianPhasesMs": {
+      "startup and imports": 1732,
+      "input declaration": 102,
+      "triangular attempt": 38,
+      "extraction": 44,
+      "serialization": 12,
+      "producer transport": 2240,
+      "parsing": 16,
+      "normalization": 1092,
+      "row kernel proofs": 33700,
+      "certificate proof": 35186,
+      "goal connection": 26,
+      "pre-export elapsed": 42570
+    },
+    "medianCumulativeKernelMs": 36700.0,
+    "medianFinalKernelMs": 921.0,
+    "maxPeakLeanBytes": 1660280832,
+    "allOleanPartsBytes": [
+      3351680
+    ],
+    "proofNodes": [
+      65273
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused-row",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      12.503
+    ],
+    "medianSeconds": 12.503,
+    "worstSeconds": 12.503,
+    "medianPhasesMs": {
+      "startup and imports": 1852,
+      "input declaration": 24,
+      "triangular attempt": 17,
+      "extraction": 11,
+      "serialization": 2,
+      "producer transport": 6074,
+      "parsing": 7,
+      "normalization": 326,
+      "row kernel proofs": 2642,
+      "certificate proof": 3044,
+      "goal connection": 3,
+      "pre-export elapsed": 12176
+    },
+    "medianCumulativeKernelMs": 3450.0,
+    "medianFinalKernelMs": 219.0,
+    "maxPeakLeanBytes": 1476595712,
+    "allOleanPartsBytes": [
+      1256496
+    ],
+    "proofNodes": [
+      16636
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused-row",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      43.831
+    ],
+    "medianSeconds": 43.831,
+    "worstSeconds": 43.831,
+    "medianPhasesMs": {
+      "startup and imports": 1678,
+      "input declaration": 96,
+      "triangular attempt": 40,
+      "extraction": 47,
+      "serialization": 9,
+      "producer transport": 2335,
+      "parsing": 16,
+      "normalization": 1342,
+      "row kernel proofs": 34456,
+      "certificate proof": 36630,
+      "goal connection": 6,
+      "pre-export elapsed": 43466
+    },
+    "medianCumulativeKernelMs": 37900.0,
+    "medianFinalKernelMs": 602.0,
+    "maxPeakLeanBytes": 1658265600,
+    "allOleanPartsBytes": [
+      3351680
+    ],
+    "proofNodes": [
+      65273
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-confirm-retry",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      52.827
+    ],
+    "medianSeconds": 52.827,
+    "worstSeconds": 52.827,
+    "medianPhasesMs": {
+      "startup and imports": 2029,
+      "input declaration": 103,
+      "triangular attempt": 43,
+      "extraction": 41,
+      "serialization": 8,
+      "producer transport": 1822,
+      "parsing": 18,
+      "normalization": 3989,
+      "row kernel proofs": 37122,
+      "certificate proof": 39363,
+      "goal connection": 11,
+      "pre-export elapsed": 52462
+    },
+    "medianCumulativeKernelMs": 41000.0,
+    "medianFinalKernelMs": 4250.0,
+    "maxPeakLeanBytes": 1805197312,
+    "allOleanPartsBytes": [
+      3380152
+    ],
+    "proofNodes": [
+      75549
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-confirm-large256",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      57.999
+    ],
+    "medianSeconds": 57.999,
+    "worstSeconds": 57.999,
+    "medianPhasesMs": {
+      "startup and imports": 1831,
+      "input declaration": 480,
+      "triangular attempt": 34,
+      "extraction": 38,
+      "serialization": 175,
+      "producer transport": 1957,
+      "parsing": 14,
+      "normalization": 3560,
+      "row kernel proofs": 39869,
+      "certificate proof": 42085,
+      "goal connection": 12,
+      "pre-export elapsed": 57451
+    },
+    "medianCumulativeKernelMs": 45600.0,
+    "medianFinalKernelMs": 6040.0,
+    "maxPeakLeanBytes": 1790337024,
+    "allOleanPartsBytes": [
+      3914904
+    ],
+    "proofNodes": [
+      75058
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "final-dense-retry",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      41.72
+    ],
+    "medianSeconds": 41.72,
+    "worstSeconds": 41.72,
+    "medianPhasesMs": {
+      "startup and imports": 1889,
+      "input declaration": 87,
+      "triangular attempt": 50,
+      "extraction": 75,
+      "serialization": 13,
+      "producer transport": 1805,
+      "parsing": 14,
+      "normalization": 1041,
+      "row kernel proofs": 30680,
+      "certificate proof": 32590,
+      "goal connection": 19,
+      "pre-export elapsed": 40950
+    },
+    "medianCumulativeKernelMs": 35000.0,
+    "medianFinalKernelMs": 1680.0,
+    "maxPeakLeanBytes": 1659723776,
+    "allOleanPartsBytes": [
+      3381304
+    ],
+    "proofNodes": [
+      65672
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "final-dense-large256",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      37.354
+    ],
+    "medianSeconds": 37.354,
+    "worstSeconds": 37.354,
+    "medianPhasesMs": {
+      "startup and imports": 1820,
+      "input declaration": 468,
+      "triangular attempt": 45,
+      "extraction": 66,
+      "serialization": 196,
+      "producer transport": 1658,
+      "parsing": 15,
+      "normalization": 1174,
+      "row kernel proofs": 25765,
+      "certificate proof": 28027,
+      "goal connection": 27,
+      "pre-export elapsed": 36198
+    },
+    "medianCumulativeKernelMs": 29900.0,
+    "medianFinalKernelMs": 1170.0,
+    "maxPeakLeanBytes": 1659404288,
+    "allOleanPartsBytes": [
+      3916056
+    ],
+    "proofNodes": [
+      65395
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  }
+]

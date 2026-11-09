@@ -1,0 +1,10 @@
+{
+  "Determinant/Tactic/Cache.lean": "7b524e36146e72c59085515e9a6588ab149f9c791117c3f45131291eb379cdb8",
+  "Determinant/Tactic/Bridge.lean": "30b07094e07d19c754ef3b1daee8f8f536ca0bd4e5a2610e69ebf18c91e6f840",
+  "Determinant/Tactic.lean": "39c00159a2bac98203720bb763ed55a3e4f545534e826a1b557a7c8b61846214",
+  "scripts/cache_lookup.py": "8baff0a178ac09af00b6718f1161e69639b2c84e313e16866a61c230f9c031a8",
+  "tests/Cache.lean": "12c44d162130122508e7348f35a812c05d4f209560f596b696085618d50427c9",
+  "tests/CacheReplay.lean": "5f19995734382227495a685e74293d37352a494dec62a4672c8ce6b82babcf2c",
+  "tests/test_cache_lookup.py": "ab8208afd22c06d80fb47334396d5f4436c7bbcfbdaa7364bdcf269292470e34",
+  "benchmarks/run_cache.py": "4f056a2cd81daf9787521650d2a15ce18f3e3ac0d986d2a13774b4b1f6914b45"
+}

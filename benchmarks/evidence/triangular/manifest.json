@@ -1,0 +1,30 @@
+{
+  "generator_sage_version": "10.10",
+  "method": "GL(n, GF(p)).random_element(), lifted by signed multiples of p",
+  "cases": [
+    {
+      "name": "triangular-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "71d5176436ccce896bf4196cd771d9ad8d5c827dde19708a34bc44f30a4e41f1"
+    },
+    {
+      "name": "triangular-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "37fa6d21aa59f9ea9c4fcc703a014738d2ff0ba96f385b2cbee3e3351fa81cb6"
+    }
+  ]
+}

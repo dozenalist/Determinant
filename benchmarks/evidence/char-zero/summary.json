@@ -1,0 +1,426 @@
+{
+  "certification_seconds": "elapsed benchmark tactic invocation plus final declaration kernel check",
+  "samples_per_case": 3,
+  "groups": [
+    {
+      "dimension": 10,
+      "coefficient_ring": "Int",
+      "metrics": {
+        "wall": {
+          "median": 3.301,
+          "samples": [
+            17.824,
+            3.301,
+            3.25
+          ]
+        },
+        "input": {
+          "median": 0.004,
+          "samples": [
+            0.005,
+            0.004,
+            0.003
+          ]
+        },
+        "bridge": {
+          "median": 0.0,
+          "samples": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "proof": {
+          "median": 1.5725,
+          "samples": [
+            3.5023,
+            1.5299,
+            1.5725
+          ]
+        },
+        "final_kernel": {
+          "median": 0.0529,
+          "samples": [
+            0.0583,
+            0.0529,
+            0.0485
+          ]
+        },
+        "startup": {
+          "median": 1.238,
+          "samples": [
+            13.67,
+            1.238,
+            1.179
+          ]
+        },
+        "artifact": {
+          "median": 673648,
+          "samples": [
+            673648,
+            673648,
+            673648
+          ]
+        },
+        "peak": {
+          "median": 1440129024,
+          "samples": [
+            1321504768,
+            1440129024,
+            1440522240
+          ]
+        }
+      }
+    },
+    {
+      "dimension": 10,
+      "coefficient_ring": "R",
+      "metrics": {
+        "wall": {
+          "median": 3.257,
+          "samples": [
+            3.257,
+            3.15,
+            3.297
+          ]
+        },
+        "input": {
+          "median": 0.08,
+          "samples": [
+            0.07,
+            0.08,
+            0.08
+          ]
+        },
+        "bridge": {
+          "median": 0.031,
+          "samples": [
+            0.03,
+            0.032,
+            0.031
+          ]
+        },
+        "proof": {
+          "median": 1.4844,
+          "samples": [
+            1.4844,
+            1.4703,
+            1.5335
+          ]
+        },
+        "final_kernel": {
+          "median": 0.0744,
+          "samples": [
+            0.0744,
+            0.0623,
+            0.0755
+          ]
+        },
+        "startup": {
+          "median": 1.173,
+          "samples": [
+            1.173,
+            1.095,
+            1.221
+          ]
+        },
+        "artifact": {
+          "median": 800016,
+          "samples": [
+            800016,
+            800016,
+            800016
+          ]
+        },
+        "peak": {
+          "median": 1441607680,
+          "samples": [
+            1441517568,
+            1441714176,
+            1441607680
+          ]
+        }
+      }
+    },
+    {
+      "dimension": 50,
+      "coefficient_ring": "Int",
+      "metrics": {
+        "wall": {
+          "median": 6.445,
+          "samples": [
+            6.331,
+            6.445,
+            6.794
+          ]
+        },
+        "input": {
+          "median": 0.021,
+          "samples": [
+            0.021,
+            0.02,
+            0.023
+          ]
+        },
+        "bridge": {
+          "median": 0.0,
+          "samples": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "proof": {
+          "median": 4.72,
+          "samples": [
+            4.625,
+            4.72,
+            5.019
+          ]
+        },
+        "final_kernel": {
+          "median": 0.139,
+          "samples": [
+            0.148,
+            0.139,
+            0.132
+          ]
+        },
+        "startup": {
+          "median": 1.1,
+          "samples": [
+            1.08,
+            1.1,
+            1.128
+          ]
+        },
+        "artifact": {
+          "median": 1362536,
+          "samples": [
+            1362536,
+            1362536,
+            1362536
+          ]
+        },
+        "peak": {
+          "median": 1479532544,
+          "samples": [
+            1481404416,
+            1479467008,
+            1479532544
+          ]
+        }
+      }
+    },
+    {
+      "dimension": 50,
+      "coefficient_ring": "R",
+      "metrics": {
+        "wall": {
+          "median": 9.876,
+          "samples": [
+            9.071,
+            9.876,
+            9.938
+          ]
+        },
+        "input": {
+          "median": 1.941,
+          "samples": [
+            1.753,
+            1.941,
+            2.139
+          ]
+        },
+        "bridge": {
+          "median": 0.345,
+          "samples": [
+            0.336,
+            0.418,
+            0.345
+          ]
+        },
+        "proof": {
+          "median": 5.48,
+          "samples": [
+            5.186,
+            5.679,
+            5.48
+          ]
+        },
+        "final_kernel": {
+          "median": 0.232,
+          "samples": [
+            0.215,
+            0.266,
+            0.232
+          ]
+        },
+        "startup": {
+          "median": 1.259,
+          "samples": [
+            1.218,
+            1.259,
+            1.317
+          ]
+        },
+        "artifact": {
+          "median": 4312904,
+          "samples": [
+            4312904,
+            4312904,
+            4312904
+          ]
+        },
+        "peak": {
+          "median": 1498300416,
+          "samples": [
+            1499578368,
+            1498177536,
+            1498300416
+          ]
+        }
+      }
+    },
+    {
+      "dimension": 100,
+      "coefficient_ring": "Int",
+      "metrics": {
+        "wall": {
+          "median": 29.584,
+          "samples": [
+            28.961,
+            32.3,
+            29.584
+          ]
+        },
+        "input": {
+          "median": 0.085,
+          "samples": [
+            0.08,
+            0.156,
+            0.085
+          ]
+        },
+        "bridge": {
+          "median": 0.0,
+          "samples": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "proof": {
+          "median": 27.234,
+          "samples": [
+            26.518,
+            28.572,
+            27.234
+          ]
+        },
+        "final_kernel": {
+          "median": 0.613,
+          "samples": [
+            0.613,
+            0.668,
+            0.597
+          ]
+        },
+        "startup": {
+          "median": 1.258,
+          "samples": [
+            1.258,
+            2.287,
+            1.155
+          ]
+        },
+        "artifact": {
+          "median": 3457752,
+          "samples": [
+            3457752,
+            3457752,
+            3457752
+          ]
+        },
+        "peak": {
+          "median": 1661923328,
+          "samples": [
+            1662001152,
+            1661923328,
+            1661890560
+          ]
+        }
+      }
+    },
+    {
+      "dimension": 100,
+      "coefficient_ring": "R",
+      "metrics": {
+        "wall": {
+          "median": 41.885,
+          "samples": [
+            53.008,
+            41.885,
+            41.749
+          ]
+        },
+        "input": {
+          "median": 8.282,
+          "samples": [
+            13.854,
+            7.634,
+            8.282
+          ]
+        },
+        "bridge": {
+          "median": 1.72,
+          "samples": [
+            2.557,
+            1.72,
+            1.676
+          ]
+        },
+        "proof": {
+          "median": 30.187,
+          "samples": [
+            32.943,
+            30.187,
+            29.498
+          ]
+        },
+        "final_kernel": {
+          "median": 1.05,
+          "samples": [
+            1.03,
+            1.17,
+            1.05
+          ]
+        },
+        "startup": {
+          "median": 1.266,
+          "samples": [
+            2.945,
+            1.217,
+            1.266
+          ]
+        },
+        "artifact": {
+          "median": 15154072,
+          "samples": [
+            15154072,
+            15154072,
+            15154072
+          ]
+        },
+        "peak": {
+          "median": 1723179008,
+          "samples": [
+            1723764736,
+            1721196544,
+            1723179008
+          ]
+        }
+      }
+    }
+  ]
+}

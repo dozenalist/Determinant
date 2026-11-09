@@ -1,0 +1,78 @@
+[
+  {
+    "case": {
+      "name": "triangular-50-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "71d5176436ccce896bf4196cd771d9ad8d5c827dde19708a34bc44f30a4e41f1"
+    },
+    "run": 1,
+    "wallSeconds": 1.829,
+    "exitCode": 0,
+    "timedOut": false,
+    "deadlineSeconds": 85.0,
+    "peakLeanSampleBytes": 1465409536,
+    "peakProcessRssWait4Bytes": 1464950784,
+    "peakCombinedSampleBytes": 1465409536,
+    "sourceBytes": 19362,
+    "oleanBytes": 159832,
+    "allOleanPartsBytes": 919928,
+    "log": "triangular-50-20bit-unit-upper-product-json-decimal-strings-run1.log",
+    "phasesMs": {
+      "startup and imports": 1106,
+      "input declaration": 15,
+      "triangular route": 108,
+      "pre-export elapsed": 1750
+    },
+    "kernelMs": 194.0,
+    "finalDeclarationKernelMs": 194.0,
+    "proofNodes": 10250,
+    "producer": null,
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "exportAndExitMs": 79.468
+  },
+  {
+    "case": {
+      "name": "triangular-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "triangular",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "37fa6d21aa59f9ea9c4fcc703a014738d2ff0ba96f385b2cbee3e3351fa81cb6"
+    },
+    "run": 1,
+    "wallSeconds": 2.782,
+    "exitCode": 0,
+    "timedOut": false,
+    "deadlineSeconds": 85.0,
+    "peakLeanSampleBytes": 1575079936,
+    "peakProcessRssWait4Bytes": 1575346176,
+    "peakCombinedSampleBytes": 1575079936,
+    "sourceBytes": 69363,
+    "oleanBytes": 159832,
+    "allOleanPartsBytes": 1907552,
+    "log": "triangular-100-20bit-unit-upper-product-json-decimal-strings-run1.log",
+    "phasesMs": {
+      "startup and imports": 1135,
+      "input declaration": 54,
+      "triangular route": 288,
+      "pre-export elapsed": 2638
+    },
+    "kernelMs": 790.0,
+    "finalDeclarationKernelMs": 790.0,
+    "proofNodes": 36363,
+    "producer": null,
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "exportAndExitMs": 144.125
+  }
+]

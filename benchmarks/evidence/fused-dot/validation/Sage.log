@@ -1,0 +1,6 @@
+[Determinant.producer] starting /usr/bin/python3 with [scripts/det_certificate.py]
+[Determinant.producer] producer completed in 3640 ms
+    singular reduction modulo 2; trying another prime
+    
+[Determinant.producer] metadata: {"attempted_primes":["2","3"],"backend":"sage.matrix.matrix_modn_dense_flint.Matrix_modn_dense_flint","certificate_encode_ms":0,"elapsed_ms":2875,"import_ms":2836,"matrix_ms":0,"name":"SageMath","peak_rss_kib":213172,"sage_version":"10.10","search_inverse_ms":39}
+'SageTests.denseRetry' depends on axioms: [propext, Classical.choice, Quot.sound]

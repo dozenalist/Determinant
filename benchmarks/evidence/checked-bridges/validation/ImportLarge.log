@@ -1,0 +1,2 @@
+benchmark : benchmarkMatrix.det ≠ 0
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]

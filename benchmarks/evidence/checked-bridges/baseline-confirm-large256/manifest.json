@@ -1,0 +1,18 @@
+{
+  "generator_sage_version": "10.10",
+  "method": "GL(n, GF(p)).random_element(), lifted by signed multiples of p",
+  "cases": [
+    {
+      "name": "dense-100-256bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 256,
+      "max_actual_bits": 256,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "76ece832ad86930ba27e1e592e1e0cd625ac42b95a4cd496ec31127926328b2e"
+    }
+  ]
+}

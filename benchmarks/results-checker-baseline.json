@@ -1,0 +1,26 @@
+﻿[
+    {
+        "Dimension":  50,
+        "Modulus":  101,
+        "Matrix":  "I + J (2-bit positive entries)",
+        "Route":  "kernel",
+        "Run":  1,
+        "Seconds":  81.448,
+        "SourceBytes":  18472,
+        "OLeanBytes":  4481752,
+        "ProofNodes":  10098,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]\r\nproof nodes: 10098"
+    },
+    {
+        "Dimension":  50,
+        "Modulus":  101,
+        "Matrix":  "I + J (2-bit positive entries)",
+        "Route":  "upper",
+        "Run":  1,
+        "Seconds":  67.545,
+        "SourceBytes":  18471,
+        "OLeanBytes":  4481768,
+        "ProofNodes":  10098,
+        "Axioms":  "\u0027benchmark\u0027 depends on axioms: [propext, Classical.choice, Quot.sound]\r\nproof nodes: 10098"
+    }
+]

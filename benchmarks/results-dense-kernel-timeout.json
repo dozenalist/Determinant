@@ -1,0 +1,33 @@
+[
+    {
+        "case":  {
+                     "name":  "dense-100-20bit-unit-upper-product-quoted-numerals",
+                     "dimension":  100,
+                     "entry_bits":  20,
+                     "max_actual_bits":  20,
+                     "variant":  "dense",
+                     "seed":  20261208,
+                     "kind":  "unit-upper-product",
+                     "representation":  "quoted",
+                     "entry_syntax":  "numerals",
+                     "source_sha256":  "b86a4049a8c7cc2722d07f088c8b998a43e1bdaa1a40684945702f2299fdbc8d"
+                 },
+        "run":  1,
+        "wallSeconds":  180.461,
+        "exitCode":  1,
+        "timedOut":  true,
+        "peakLeanProcessBytes":  7088975872,
+        "peakCombinedLeanSampleBytes":  7176876032,
+        "oleanBytes":  0,
+        "allOleanPartsBytes":  null,
+        "proofNodes":  null,
+        "sourceBytes":  86457,
+        "axiomReport":  null,
+        "finalKernelMs":  null,
+        "phasesMs":  {
+
+                     },
+        "producer":  null,
+        "log":  "dense-100-20bit-unit-upper-product-quoted-numerals-run1.log"
+    }
+]

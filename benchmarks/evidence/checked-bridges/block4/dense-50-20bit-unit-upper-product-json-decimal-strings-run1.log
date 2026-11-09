@@ -1,0 +1,56 @@
+[Determinant.timing] startup and imports: 817 ms
+[Determinant.timing] input declaration: 30 ms
+benchmark input elaborated
+[Determinant.timing] triangular attempt: 16 ms
+[Determinant.timing] extraction: 11 ms
+[Determinant.timing] serialization: 2 ms
+[Determinant.producer] starting /usr/bin/python3 with [scripts/det_certificate.py]
+[Determinant.producer] producer completed in 1209 ms
+    
+[Determinant.timing] producer transport: 1209 ms
+[Determinant.timing] parsing: 1 ms
+[Determinant.producer] metadata: {"attempted_primes":["2"],"backend":"sage.matrix.matrix_mod2_dense.Matrix_mod2_dense","certificate_encode_ms":1,"elapsed_ms":889,"import_ms":878,"matrix_ms":1,"name":"SageMath","peak_rss_kib":213220,"sage_version":"10.10","search_inverse_ms":10}
+[Determinant.timing] normalization: 324 ms
+[Determinant.timing] row kernel proofs: 1753 ms
+[Determinant.timing] certificate proof: 2040 ms
+[Determinant.timing] goal connection: 1 ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 12ms
+type checking took 23.7ms
+type checking took 36.4ms
+type checking took 52.3ms
+type checking took 69.2ms
+type checking took 119ms
+type checking took 136ms
+type checking took 126ms
+type checking took 157ms
+type checking took 176ms
+type checking took 187ms
+type checking took 227ms
+type checking took 240ms
+type checking took 181ms
+tactic execution of Determinant.Tactic.tacticCertify_det_ne_zero__ took 1.86s
+benchmark tactic returned after 3608 ms
+share common exprs took 7.27ms
+type checking took 355ms
+process pre-definitions took 9.69ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 18696
+[Determinant.timing] pre-export elapsed: 5055 ms
+cumulative profiling times:
+	attribute application 0.00923ms
+	compilation (IR) 0.0513ms
+	compilation (LCNF base) 0.345ms
+	compilation (LCNF impure) 0.222ms
+	compilation (LCNF mono) 0.332ms
+	declTypeLinter 0.316ms
+	fix level params 0.356ms
+	instantiate metavars 0.00871ms
+	interpretation 0.0501ms
+	let-to-have transformation 0.00549ms
+	norm_num 2.39ms
+	process pre-definitions 9.69ms
+	share common exprs 7.27ms
+	tactic execution 1.87s
+	tacticAnalysis 0.24ms
+	type checking 2.09s
+	typeclass inference 2.36ms

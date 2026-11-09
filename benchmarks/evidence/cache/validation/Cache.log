@@ -1,0 +1,5 @@
+[Determinant.cache] miss: some ("/tmp/determinant-linux/.lake/det-ne-zero-tests/witnesses/matrix-v1-2x2-3cdc1d8a0f72b1ee8fd8cd8065644083c75f4e648b088b55c4675a291d72b9f8-full-inverse.json")
+[Determinant.cache] stored: some ("/tmp/determinant-linux/.lake/det-ne-zero-tests/witnesses/matrix-v1-2x2-3cdc1d8a0f72b1ee8fd8cd8065644083c75f4e648b088b55c4675a291d72b9f8-full-inverse.json")
+[Determinant.cache] hit: some ("/tmp/determinant-linux/.lake/det-ne-zero-tests/witnesses/matrix-v1-2x2-3cdc1d8a0f72b1ee8fd8cd8065644083c75f4e648b088b55c4675a291d72b9f8-full-inverse.json")
+[Determinant.cache] cached verification failed; recomputing: modular certificate rejected: product is not the identity modulo 5
+[Determinant.cache] stored: some ("/tmp/determinant-linux/.lake/det-ne-zero-tests/witnesses/matrix-v1-2x2-3cdc1d8a0f72b1ee8fd8cd8065644083c75f4e648b088b55c4675a291d72b9f8-full-inverse.json")

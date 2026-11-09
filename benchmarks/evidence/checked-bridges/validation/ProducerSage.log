@@ -1,0 +1,14 @@
+test_lossless_and_empty (test_det_certificate.ProtocolTests.test_lossless_and_empty) ... ok
+test_malformed_request_and_arguments (test_det_certificate.ProtocolTests.test_malformed_request_and_arguments) ... ok
+test_missing_sage_diagnostic (test_det_certificate.ProtocolTests.test_missing_sage_diagnostic) ... skipped 'this case needs a Python without Sage'
+test_reject_bad_data (test_det_certificate.ProtocolTests.test_reject_bad_data) ... ok
+test_supervisor_timeout_includes_import (test_det_certificate.ProtocolTests.test_supervisor_timeout_includes_import) ... ok
+test_dense_bad_prime_retry (test_det_certificate.SageTests.test_dense_bad_prime_retry) ... ok
+test_empty_singleton_signed_large_reduced_and_fallback (test_det_certificate.SageTests.test_empty_singleton_signed_large_reduced_and_fallback) ... ok
+test_nonprime_candidate_is_configuration_error (test_det_certificate.SageTests.test_nonprime_candidate_is_configuration_error) ... ok
+test_singular_and_exhausted_are_not_integer_singularity (test_det_certificate.SageTests.test_singular_and_exhausted_are_not_integer_singularity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 22.643s
+
+OK (skipped=1)

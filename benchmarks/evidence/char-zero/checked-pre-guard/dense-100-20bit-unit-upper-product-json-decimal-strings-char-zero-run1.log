@@ -1,0 +1,147 @@
+[Determinant.timing] startup and imports: 1258 ms
+[Determinant.timing] input declaration: 9147 ms
+[Determinant.timing] integer cast bridge: 2259 ms
+[Determinant.timing] triangular attempt: 251 ms
+[Determinant.timing] extraction: 60 ms
+[Determinant.timing] serialization: 9 ms
+[Determinant.timing] producer transport: 2121 ms
+[Determinant.timing] parsing: 13 ms
+[Determinant.timing] normalization: 1058 ms
+[Determinant.timing] row kernel proofs: 23575 ms
+[Determinant.timing] certificate proof: 25413 ms
+[Determinant.timing] goal connection: 6 ms
+typeclass inference of AddMonoidWithOne took 2.22ms
+type checking took 2.07s
+tactic execution of Lean.Parser.Tactic.exact took 190ms
+norm_num took 1.6ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 50.9ms
+type checking took 964ms
+type checking took 9.85ms
+type checking took 1.61s
+type checking took 17.3ms
+type checking took 23.5ms
+type checking took 22ms
+type checking took 25.1ms
+type checking took 29.7ms
+type checking took 35.1ms
+type checking took 40.1ms
+type checking took 45ms
+type checking took 45ms
+type checking took 54.8ms
+type checking took 51.9ms
+type checking took 54ms
+type checking took 60ms
+type checking took 67.1ms
+type checking took 75.6ms
+type checking took 71.5ms
+type checking took 73.9ms
+type checking took 78.5ms
+type checking took 82.8ms
+type checking took 102ms
+type checking took 109ms
+type checking took 102ms
+type checking took 114ms
+type checking took 109ms
+type checking took 111ms
+type checking took 115ms
+type checking took 120ms
+type checking took 128ms
+type checking took 115ms
+type checking took 130ms
+type checking took 143ms
+type checking took 145ms
+type checking took 210ms
+type checking took 139ms
+type checking took 165ms
+type checking took 223ms
+type checking took 180ms
+type checking took 192ms
+type checking took 204ms
+type checking took 197ms
+type checking took 218ms
+type checking took 202ms
+type checking took 201ms
+type checking took 225ms
+type checking took 223ms
+type checking took 221ms
+type checking took 221ms
+type checking took 234ms
+type checking took 255ms
+type checking took 266ms
+type checking took 264ms
+type checking took 275ms
+type checking took 274ms
+type checking took 285ms
+type checking took 298ms
+type checking took 297ms
+type checking took 299ms
+type checking took 267ms
+type checking took 264ms
+type checking took 280ms
+type checking took 339ms
+type checking took 284ms
+type checking took 281ms
+type checking took 303ms
+type checking took 302ms
+type checking took 301ms
+type checking took 295ms
+type checking took 310ms
+type checking took 304ms
+type checking took 305ms
+type checking took 299ms
+type checking took 314ms
+type checking took 289ms
+type checking took 325ms
+type checking took 313ms
+type checking took 302ms
+type checking took 307ms
+type checking took 354ms
+type checking took 332ms
+type checking took 321ms
+type checking took 324ms
+type checking took 339ms
+type checking took 345ms
+type checking took 344ms
+type checking took 404ms
+type checking took 409ms
+type checking took 394ms
+type checking took 394ms
+type checking took 422ms
+type checking took 399ms
+type checking took 412ms
+type checking took 427ms
+type checking took 468ms
+type checking took 394ms
+type checking took 400ms
+type checking took 545ms
+type checking took 453ms
+type checking took 447ms
+type checking took 421ms
+type checking took 535ms
+tactic execution of Determinant.Tactic.tacticDet_ne_zero__ took 2.79s
+benchmark tactic returned after 31223 ms
+share common exprs took 254ms
+fix level params took 5.86ms
+type checking took 1.2s
+process pre-definitions took 45.7ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 150129
+[Determinant.timing] pre-export elapsed: 44464 ms
+cumulative profiling times:
+	attribute application 0.0158ms
+	compilation (IR) 0.0741ms
+	compilation (LCNF base) 0.615ms
+	compilation (LCNF impure) 0.321ms
+	compilation (LCNF mono) 0.509ms
+	declTypeLinter 0.921ms
+	fix level params 5.86ms
+	instantiate metavars 0.0212ms
+	interpretation 0.0882ms
+	let-to-have transformation 0.0143ms
+	norm_num 5.31ms
+	process pre-definitions 45.7ms
+	share common exprs 254ms
+	tactic execution 3.04s
+	tacticAnalysis 0.368ms
+	type checking 29.4s
+	typeclass inference 7.91ms

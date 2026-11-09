@@ -1,0 +1,40 @@
+--- a/Determinant/NatCertificate.lean
++++ b/Determinant/NatCertificate.lean
+@@ -65,10 +65,26 @@
+         Nat.add (Nat.mul x y) (natDot xs.length xs ys)
+       rw [ih]
+ 
++/-- Fuse the structural zip and sum, avoiding an intermediate list during kernel reduction. -/
++def natDotFused : List ℕ → List ℕ → ℕ
++  | a :: as, b :: bs => Nat.add (Nat.mul a b) (natDotFused as bs)
++  | _, _ => 0
++
++theorem natDotFused_eq (a b : List ℕ) : natDotFused a b = natDotZip a b := by
++  induction a generalizing b with
++  | nil => rfl
++  | cons x xs ih =>
++    cases b with
++    | nil => rfl
++    | cons y ys =>
++      change Nat.add (Nat.mul x y) (natDotFused xs ys) =
++        Nat.add (Nat.mul x y) (natDotZip xs ys)
++      rw [ih]
++
+ def checkNatRow (upper : Bool) (n p i : ℕ) (row : List ℕ) (bt : List (List ℕ)) : Bool :=
+   bt.zipIdx.all fun (col, j) =>
+     if upper && i < j then true
+-    else natDotZip row col % p == if i == j then 1 else 0
++    else natDotFused row col % p == if i == j then 1 else 0
+ 
+ def checkNatRows (upper : Bool) (n p start : ℕ) (a bt : List (List ℕ)) : Bool :=
+   (a.zipIdx start).all fun (row, i) => checkNatRow upper n p i row bt
+@@ -102,7 +118,8 @@
+   have hwidth : (a[i.val]).length = n := by
+     simpa using List.all_eq_true.mp hw _ (List.getElem_mem hi)
+   have hnot : ¬ i.val < j.val := Nat.not_lt.mpr hij
+-  simpa [natDotZip_eq, hwidth, hnot, List.getElem?_eq_getElem hi, List.getElem?_eq_getElem hj,
++  simpa [natDotFused_eq, natDotZip_eq, hwidth, hnot,
++    List.getElem?_eq_getElem hi, List.getElem?_eq_getElem hj,
+     Fin.ext_iff] using hcell
+ 
+ theorem intRows_getD (rows : List (List ℕ)) (i : ℕ) :

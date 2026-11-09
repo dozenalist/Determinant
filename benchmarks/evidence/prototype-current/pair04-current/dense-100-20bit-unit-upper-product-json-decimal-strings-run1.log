@@ -1,0 +1,154 @@
+[Determinant.timing] startup and imports: 1722 ms
+[Determinant.timing] input declaration: 122 ms
+benchmark input elaborated
+[Determinant.timing] triangular attempt: 48 ms
+[Determinant.timing] extraction: 52 ms
+[Determinant.timing] serialization: 12 ms
+[Determinant.producer] starting /usr/bin/python3 with [scripts/det_certificate.py]
+[Determinant.producer] producer completed in 2096 ms
+    
+[Determinant.timing] producer transport: 2097 ms
+[Determinant.timing] parsing: 13 ms
+[Determinant.producer] metadata: {"attempted_primes":["2"],"backend":"sage.matrix.matrix_mod2_dense.Matrix_mod2_dense","certificate_encode_ms":5,"elapsed_ms":1560,"import_ms":1529,"matrix_ms":3,"name":"SageMath","peak_rss_kib":214936,"sage_version":"10.10","search_inverse_ms":24}
+[Determinant.timing] normalization: 1240 ms
+[Determinant.timing] row kernel proofs: 31042 ms
+[Determinant.timing] certificate proof: 32966 ms
+[Determinant.timing] goal connection: 14 ms
+typeclass inference of AddMonoidWithOne took 1.25ms
+norm_num took 1.56ms
+typeclass inference of CharZero took 1.83ms
+norm_num took 1.02ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 35.7ms
+type checking took 1.13s
+type checking took 6.17ms
+type checking took 1.66s
+type checking took 18ms
+type checking took 20.8ms
+type checking took 23.3ms
+type checking took 27.6ms
+type checking took 34.4ms
+type checking took 35.5ms
+type checking took 41.6ms
+type checking took 43ms
+type checking took 71.3ms
+type checking took 55.9ms
+type checking took 58.1ms
+type checking took 61.6ms
+type checking took 66ms
+type checking took 66.5ms
+type checking took 73.3ms
+type checking took 77.5ms
+type checking took 94.7ms
+type checking took 87.3ms
+type checking took 152ms
+type checking took 112ms
+type checking took 119ms
+type checking took 107ms
+type checking took 122ms
+type checking took 118ms
+type checking took 122ms
+type checking took 134ms
+type checking took 131ms
+type checking took 159ms
+type checking took 141ms
+type checking took 141ms
+type checking took 148ms
+type checking took 164ms
+type checking took 196ms
+type checking took 160ms
+type checking took 179ms
+type checking took 164ms
+type checking took 168ms
+type checking took 208ms
+type checking took 236ms
+type checking took 224ms
+type checking took 194ms
+type checking took 196ms
+type checking took 220ms
+type checking took 231ms
+type checking took 233ms
+type checking took 212ms
+type checking took 222ms
+type checking took 238ms
+type checking took 328ms
+type checking took 233ms
+type checking took 257ms
+type checking took 277ms
+type checking took 282ms
+type checking took 276ms
+type checking took 303ms
+type checking took 298ms
+type checking took 293ms
+type checking took 329ms
+type checking took 326ms
+type checking took 347ms
+type checking took 333ms
+type checking took 330ms
+type checking took 294ms
+type checking took 274ms
+type checking took 491ms
+type checking took 597ms
+type checking took 423ms
+type checking took 319ms
+type checking took 319ms
+type checking took 363ms
+type checking took 384ms
+type checking took 334ms
+type checking took 308ms
+type checking took 248ms
+type checking took 290ms
+type checking took 368ms
+type checking took 319ms
+type checking took 351ms
+type checking took 621ms
+type checking took 723ms
+type checking took 603ms
+type checking took 667ms
+type checking took 575ms
+type checking took 652ms
+type checking took 672ms
+type checking took 685ms
+type checking took 641ms
+type checking took 662ms
+type checking took 813ms
+type checking took 684ms
+type checking took 691ms
+type checking took 619ms
+type checking took 691ms
+type checking took 643ms
+type checking took 777ms
+type checking took 864ms
+type checking took 613ms
+type checking took 736ms
+type checking took 696ms
+type checking took 653ms
+tactic execution of Determinant.Tactic.tacticCertify_det_ne_zero__ took 2.64s
+benchmark tactic returned after 36464 ms
+tactic execution of tacticBenchmark_certify took 1.81ms
+share common exprs took 227ms
+fix level params took 3.88ms
+type checking took 1.25s
+process pre-definitions took 40ms
+declTypeLinter took 1.88ms
+tacticAnalysis took 1.6ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 65273
+[Determinant.timing] pre-export elapsed: 41025 ms
+cumulative profiling times:
+	attribute application 0.0401ms
+	compilation (IR) 0.0982ms
+	compilation (LCNF base) 0.711ms
+	compilation (LCNF impure) 0.419ms
+	compilation (LCNF mono) 0.776ms
+	declTypeLinter 1.88ms
+	fix level params 3.87ms
+	instantiate metavars 0.0333ms
+	interpretation 0.0949ms
+	let-to-have transformation 0.016ms
+	norm_num 6.12ms
+	process pre-definitions 40ms
+	share common exprs 227ms
+	tactic execution 2.68s
+	tacticAnalysis 1.6ms
+	type checking 35s
+	typeclass inference 6.55ms

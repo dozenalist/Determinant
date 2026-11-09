@@ -1,0 +1,57 @@
+[
+  {
+    "case": {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "4fe6851228445df82ef98038a7f73f7ff222603933424c534bcb4f7d22bd156c"
+    },
+    "run": 1,
+    "wallSeconds": 92.621,
+    "exitCode": 0,
+    "timedOut": false,
+    "peakLeanSampleBytes": 2150567936,
+    "peakProcessRssWait4Bytes": 2150477824,
+    "peakCombinedSampleBytes": 2150567936,
+    "sourceBytes": 96586,
+    "oleanBytes": 159848,
+    "allOleanPartsBytes": 3386544,
+    "log": "dense-100-20bit-unit-upper-product-json-decimal-strings-run1.log",
+    "phasesMs": {
+      "input declaration": 87,
+      "triangular attempt": 31,
+      "extraction": 42,
+      "serialization": 12,
+      "producer transport": 3065,
+      "parsing": 10,
+      "normalization": 3026,
+      "row kernel proofs": 65551,
+      "certificate proof": 67782,
+      "goal connection": 2
+    },
+    "kernelMs": 70600.0,
+    "proofNodes": 75017,
+    "producer": {
+      "attempted_primes": [
+        "2"
+      ],
+      "backend": "sage.matrix.matrix_mod2_dense.Matrix_mod2_dense",
+      "certificate_encode_ms": 4,
+      "elapsed_ms": 2564,
+      "import_ms": 2537,
+      "matrix_ms": 2,
+      "name": "SageMath",
+      "peak_rss_kib": 214756,
+      "sage_version": "10.10",
+      "search_inverse_ms": 21
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "finalDeclarationKernelMs": 5130.0
+  }
+]

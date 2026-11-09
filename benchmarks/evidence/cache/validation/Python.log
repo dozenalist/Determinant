@@ -1,0 +1,22 @@
+test_atomic_failure_concurrency_and_orphan_staging (test_cache_lookup.CacheTests.test_atomic_failure_concurrency_and_orphan_staging) ... ok
+test_corruption_migration_collision_and_size (test_cache_lookup.CacheTests.test_corruption_migration_collision_and_size) ... ok
+test_export_is_data_only (test_cache_lookup.CacheTests.test_export_is_data_only) ... ok
+test_fresh_process_without_sage (test_cache_lookup.CacheTests.test_fresh_process_without_sage) ... ok
+test_identity_and_single_entry_change (test_cache_lookup.CacheTests.test_identity_and_single_entry_change) ... ok
+test_lossless_large_signed_empty_and_invalid_integers (test_cache_lookup.CacheTests.test_lossless_large_signed_empty_and_invalid_integers) ... ok
+test_source_root_overrides_cwd_and_no_directory_scanning (test_cache_lookup.CacheTests.test_source_root_overrides_cwd_and_no_directory_scanning) ... ok
+test_symlinks_cannot_escape_project (test_cache_lookup.CacheTests.test_symlinks_cannot_escape_project) ... ok
+test_lossless_and_empty (test_det_certificate.ProtocolTests.test_lossless_and_empty) ... ok
+test_malformed_request_and_arguments (test_det_certificate.ProtocolTests.test_malformed_request_and_arguments) ... ok
+test_missing_sage_diagnostic (test_det_certificate.ProtocolTests.test_missing_sage_diagnostic) ... skipped 'this case needs a Python without Sage'
+test_reject_bad_data (test_det_certificate.ProtocolTests.test_reject_bad_data) ... ok
+test_supervisor_timeout_includes_import (test_det_certificate.ProtocolTests.test_supervisor_timeout_includes_import) ... ok
+test_dense_bad_prime_retry (test_det_certificate.SageTests.test_dense_bad_prime_retry) ... ok
+test_empty_singleton_signed_large_reduced_and_fallback (test_det_certificate.SageTests.test_empty_singleton_signed_large_reduced_and_fallback) ... ok
+test_nonprime_candidate_is_configuration_error (test_det_certificate.SageTests.test_nonprime_candidate_is_configuration_error) ... ok
+test_singular_and_exhausted_are_not_integer_singularity (test_det_certificate.SageTests.test_singular_and_exhausted_are_not_integer_singularity) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 16.912s
+
+OK (skipped=1)

@@ -1,0 +1,41 @@
+--- a/Determinant/NatCertificate.lean
++++ b/Determinant/NatCertificate.lean
+@@ -81,10 +81,26 @@
+         Nat.add (Nat.mul x y) (natDotZip xs ys)
+       rw [ih]
+ 
++def checkNatRowFrom (upper : Bool) (p i : ℕ) (row : List ℕ) :
++    ℕ → List (List ℕ) → Bool
++  | _, [] => true
++  | j, col :: cols =>
++    (if upper && i < j then true
++     else natDotFused row col % p == if i == j then 1 else 0) &&
++      checkNatRowFrom upper p i row (j + 1) cols
++
++theorem checkNatRowFrom_eq (upper : Bool) (p i : ℕ) (row : List ℕ)
++    (j : ℕ) (bt : List (List ℕ)) :
++    checkNatRowFrom upper p i row j bt = (bt.zipIdx j).all (fun (col, k) =>
++      if upper && i < k then true
++      else natDotFused row col % p == if i == k then 1 else 0) := by
++  induction bt generalizing j with
++  | nil => rfl
++  | cons col cols ih =>
++    simp only [checkNatRowFrom, List.zipIdx_cons, List.all_cons, ih]
++
+ def checkNatRow (upper : Bool) (n p i : ℕ) (row : List ℕ) (bt : List (List ℕ)) : Bool :=
+-  bt.zipIdx.all fun (col, j) =>
+-    if upper && i < j then true
+-    else natDotFused row col % p == if i == j then 1 else 0
++  checkNatRowFrom upper p i row 0 bt
+ 
+ def checkNatRows (upper : Bool) (n p start : ℕ) (a bt : List (List ℕ)) : Bool :=
+   (a.zipIdx start).all fun (row, i) => checkNatRow upper n p i row bt
+@@ -114,6 +130,8 @@
+   have hmj : (bt[j.val], j.val) ∈ bt.zipIdx := by
+     simp [List.mk_mem_zipIdx_iff_getElem?, hj]
+   have hrow := List.all_eq_true.mp h _ hmi
++  change checkNatRowFrom upper p i.val (a[i.val]) 0 bt = true at hrow
++  rw [checkNatRowFrom_eq] at hrow
+   have hcell := List.all_eq_true.mp hrow _ hmj
+   have hwidth : (a[i.val]).length = n := by
+     simpa using List.all_eq_true.mp hw _ (List.getElem_mem hi)

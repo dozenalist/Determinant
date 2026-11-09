@@ -1,0 +1,42 @@
+[Determinant.timing] input declaration: 24 ms
+benchmark input elaborated
+[Determinant.timing] triangular attempt: 13 ms
+[Determinant.timing] extraction: 1 ms
+[Determinant.timing] serialization: 0 ms
+[Determinant.producer] starting /usr/bin/python3 with [scripts/det_certificate.py]
+[Determinant.producer] producer completed in 1982 ms
+    
+[Determinant.timing] producer transport: 1982 ms
+[Determinant.timing] parsing: 1 ms
+[Determinant.producer] metadata: {"attempted_primes":["2"],"backend":"sage.matrix.matrix_mod2_dense.Matrix_mod2_dense","certificate_encode_ms":1,"elapsed_ms":1552,"import_ms":1527,"matrix_ms":1,"name":"SageMath","peak_rss_kib":213144,"sage_version":"10.10","search_inverse_ms":23}
+[Determinant.timing] normalization: 30 ms
+[Determinant.timing] certificate proof: 21 ms
+[Determinant.timing] goal connection: 1 ms
+norm_num took 5.33ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 2.47ms
+typeclass inference of Decidable took 1.1ms
+tactic execution of Determinant.Tactic.tacticCertify_det_ne_zero__ took 2.04s
+benchmark tactic returned after 2055 ms
+share common exprs took 1.04ms
+type checking took 110ms
+process pre-definitions took 1.3ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 910
+cumulative profiling times:
+	attribute application 0.0115ms
+	compilation (IR) 0.0753ms
+	compilation (LCNF base) 0.427ms
+	compilation (LCNF impure) 0.287ms
+	compilation (LCNF mono) 0.399ms
+	declTypeLinter 0.557ms
+	fix level params 0.0508ms
+	instantiate metavars 0.014ms
+	interpretation 0.0691ms
+	let-to-have transformation 0.0446ms
+	norm_num 7.78ms
+	process pre-definitions 1.3ms
+	share common exprs 1.04ms
+	tactic execution 2.04s
+	tacticAnalysis 0.896ms
+	type checking 110ms
+	typeclass inference 3.45ms

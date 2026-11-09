@@ -1,0 +1,47 @@
+{
+    "dimension":  2,
+    "matrix":  [
+                   [
+                       "2",
+                       "1"
+                   ],
+                   [
+                       "2",
+                       "2"
+                   ]
+               ],
+    "preferredPrimes":  [
+                            "2",
+                            "3",
+                            "5"
+                        ],
+    "attemptedPrimes":  [
+                            "2",
+                            "3"
+                        ],
+    "proofMode":  "strict kernel",
+    "includes":  "Lake/Lean startup, imports, extraction, serialization, producer startup, Sage import and retry/inversion, parsing, proof construction, kernel checking, axiom audit, olean writing",
+    "excludes":  "dependency build, WSL cold startup, peak memory and internal phase profiling",
+    "medianSeconds":  17.734,
+    "worstSeconds":  18.972,
+    "records":  [
+                    {
+                        "run":  1,
+                        "wallSeconds":  17.734,
+                        "oleanBytes":  110120,
+                        "allOleanPartsBytes":  110120
+                    },
+                    {
+                        "run":  2,
+                        "wallSeconds":  15.307,
+                        "oleanBytes":  110120,
+                        "allOleanPartsBytes":  110120
+                    },
+                    {
+                        "run":  3,
+                        "wallSeconds":  18.972,
+                        "oleanBytes":  110120,
+                        "allOleanPartsBytes":  110120
+                    }
+                ]
+}

@@ -1,0 +1,39 @@
+{
+  "workspace": "/tmp/determinant-linux",
+  "lean": "/tmp/determinant-lean/lean-4.35.0-linux/bin/lean",
+  "lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "lean_path": [
+    "/tmp/determinant-linux/.lake/build/lib/lean",
+    "/tmp/determinant-linux/dependencies/mathlib",
+    "/tmp/determinant-linux/dependencies/plausible",
+    "/tmp/determinant-linux/dependencies/LeanSearchClient",
+    "/tmp/determinant-linux/dependencies/importGraph",
+    "/tmp/determinant-linux/dependencies/proofwidgets",
+    "/tmp/determinant-linux/dependencies/aesop",
+    "/tmp/determinant-linux/dependencies/Qq",
+    "/tmp/determinant-linux/dependencies/batteries",
+    "/tmp/determinant-linux/dependencies/Cli"
+  ],
+  "source_root": "/mnt/c/Users/carte/lean/ModularFormsBridge/Determinant",
+  "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "processor": "",
+  "logical_cpus": 8,
+  "visible_ram": 8147107840,
+  "input_directory": "/tmp/determinant-linux/inputs/opt-retry",
+  "project_source_sha256": {
+    "Determinant/Basic.lean": "9818e0b6fc371d8bb755b9d43d6ba5594de5445299dd799206eeb32e3c202607",
+    "Determinant/Certificate.lean": "530412a3d38ad9becf078488a1805834b1e04f7277aca17528a032abc18e59e1",
+    "Determinant/Modular.lean": "51583d4197e37f2ab7590a3fc704fd4ffe5f918defd893599b176406ce2b241f",
+    "Determinant/NatCertificate.lean": "abeba8b8bb7b54b888eb2bf550d0ff6b2a0e569717a4400cd23554abe3923048",
+    "Determinant/Tactic/Bridge.lean": "fa49607eaaa74af48bfda1f87eef57cd357c6c68532ae6a2f701f4de16f4c4a4",
+    "Determinant/Tactic/Dispatch.lean": "bc4ba2c579bf5364c9ea0f8921e6f4d5f6df2721d2fd0a2339cd9fe268c66114",
+    "Determinant/Tactic/Literal.lean": "3bb94236676c9af2a7a8b1867bb0d676693358377f204329e5c2157c5cf19e5d",
+    "Determinant/Tactic/Matrix.lean": "76a7f32ce403a1ba5b927cf91f33af66a671d62f2b657287396aa87f51878d21",
+    "Determinant/Tactic/Modular.lean": "a4f56de8f79a465cd5a7ca20ca23e573e67dab1aa406db102a62783451bccf7c",
+    "Determinant/Tactic/Triangular.lean": "25edb8b8f413d10221cce9b30f42a7ab1fc4d91a0e9ec366eb893220175fbc9c",
+    "Determinant/Tactic.lean": "0593a83aa11a69775e1a4849324881f04ef1f96b8d9f3122e946d6e847a9c94e"
+  },
+  "psutil_version": "7.2.2",
+  "invocation": "native lean -R WORKSPACE -o ARTIFACT SOURCE; dependencies built before timing"
+}

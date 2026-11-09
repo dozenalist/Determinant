@@ -1,0 +1,33 @@
+[Determinant.timing] startup and imports: 1106 ms
+[Determinant.timing] input declaration: 15 ms
+benchmark input elaborated
+[Determinant.timing] triangular route: 108 ms
+typeclass inference of CharZero took 1.1ms
+norm_num took 1.75ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 45ms
+tactic execution of Determinant.Tactic.tacticCertify_det_ne_zero__ took 2.32ms
+benchmark tactic returned after 112 ms
+share common exprs took 2.56ms
+type checking took 194ms
+process pre-definitions took 2.02ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+proof nodes: 10250
+[Determinant.timing] pre-export elapsed: 1750 ms
+cumulative profiling times:
+	attribute application 0.00999ms
+	compilation (IR) 0.067ms
+	compilation (LCNF base) 0.437ms
+	compilation (LCNF impure) 0.302ms
+	compilation (LCNF mono) 0.426ms
+	declTypeLinter 0.321ms
+	fix level params 0.389ms
+	instantiate metavars 0.011ms
+	interpretation 0.0701ms
+	let-to-have transformation 0.00529ms
+	norm_num 52.2ms
+	process pre-definitions 2.02ms
+	share common exprs 2.55ms
+	tactic execution 48.6ms
+	tacticAnalysis 0.339ms
+	type checking 194ms
+	typeclass inference 11ms

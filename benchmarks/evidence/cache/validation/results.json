@@ -1,0 +1,67 @@
+[
+  {
+    "test": "Cache",
+    "exitCode": 0,
+    "wallSeconds": 24.948
+  },
+  {
+    "test": "CacheReplay",
+    "exitCode": 0,
+    "wallSeconds": 1.891
+  },
+  {
+    "test": "Bridge",
+    "exitCode": 0,
+    "wallSeconds": 11.823
+  },
+  {
+    "test": "Dispatch",
+    "exitCode": 0,
+    "wallSeconds": 2.658
+  },
+  {
+    "test": "CharZero",
+    "exitCode": 0,
+    "wallSeconds": 1.957
+  },
+  {
+    "test": "Modular",
+    "exitCode": 0,
+    "wallSeconds": 1.98
+  },
+  {
+    "test": "ModularRows",
+    "exitCode": 0,
+    "wallSeconds": 2.569
+  },
+  {
+    "test": "Triangular",
+    "exitCode": 0,
+    "wallSeconds": 7.746
+  },
+  {
+    "test": "Sage",
+    "exitCode": 0,
+    "wallSeconds": 10.242
+  },
+  {
+    "test": "ImportSage",
+    "exitCode": 0,
+    "wallSeconds": 1.501
+  },
+  {
+    "test": "ImportCacheWithoutPython",
+    "exitCode": 0,
+    "wallSeconds": 1.509
+  },
+  {
+    "test": "ExportReplayWithoutPython",
+    "exitCode": 0,
+    "wallSeconds": 1.385
+  },
+  {
+    "test": "Python",
+    "exitCode": 0,
+    "wallSeconds": 18.314
+  }
+]

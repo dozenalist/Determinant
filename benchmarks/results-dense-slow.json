@@ -1,0 +1,38 @@
+[
+    {
+        "value":  [
+                      {
+                          "case":  {
+                                       "name":  "dense-100-20bit-unit-upper-product-lists",
+                                       "dimension":  100,
+                                       "entry_bits":  20,
+                                       "max_actual_bits":  20,
+                                       "variant":  "dense",
+                                       "seed":  20261208,
+                                       "kind":  "unit-upper-product",
+                                       "representation":  "lists",
+                                       "source_sha256":  "8c738214eb175ffb96aab79662d38e7058512dc7d9718bdb8f5b18fe6140c5ba"
+                                   },
+                          "run":  1,
+                          "wallSeconds":  196.318,
+                          "exitCode":  1,
+                          "timedOut":  false,
+                          "peakLeanProcessBytes":  1395519488,
+                          "peakCombinedLeanSampleBytes":  1864400896,
+                          "oleanBytes":  0,
+                          "allOleanPartsBytes":  null,
+                          "proofNodes":  null,
+                          "sourceBytes":  86271,
+                          "axiomReport":  null,
+                          "finalKernelMs":  null,
+                          "phasesMs":  {
+
+                                       },
+                          "producer":  null,
+                          "log":  "dense-100-20bit-unit-upper-product-lists-run1.log",
+                          "termination":  "Manually aborted after 196.318 seconds; no theorem artifact was produced. No conclusion about mathematical validity follows."
+                      }
+                  ],
+        "Count":  1
+    }
+]

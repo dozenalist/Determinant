@@ -1,0 +1,65 @@
+--- a/Determinant/NatCertificate.lean
++++ b/Determinant/NatCertificate.lean
+@@ -102,6 +102,14 @@
+   change (checkNatRow upper n p i row bt && checkNatRows upper n p (i + 1) rows bt) = true
+   exact Bool.and_eq_true_iff.mpr ⟨hr, ht⟩
+ 
++theorem checkNatRows_append {upper : Bool} {n p i : ℕ}
++    {rows tail bt : List (List ℕ)}
++    (hr : checkNatRows upper n p i rows bt = true)
++    (ht : checkNatRows upper n p (i + rows.length) tail bt = true) :
++    checkNatRows upper n p i (rows ++ tail) bt = true := by
++  simpa only [checkNatRows, List.zipIdx_append, List.all_append,
++    Bool.and_eq_true] using And.intro hr ht
++
+ theorem checkNat_entry {upper : Bool} {n p : ℕ} {a bt : List (List ℕ)}
+     (ha : a.length = n) (hw : a.all (fun row => row.length == n) = true)
+     (ht : bt.length = n) (h : checkNat upper n p a bt = true)
+--- a/Determinant/Tactic/Modular.lean
++++ b/Determinant/Tactic/Modular.lean
+@@ -126,30 +126,34 @@
+     throwError "modular certificate rejected: product is not \
+       {if upper then "unit upper triangular" else "the identity"} modulo {p}"
+   let h ← if n > 16 then do
+-      -- Bound each kernel reduction cache to one row. The column data is a
+-      -- checked definition, so each auxiliary theorem's type stays small.
++      -- Bound each kernel reduction cache to a small block of rows.
+       let started ← IO.monoMsNow
+       let rowLits := rows.map fun row => mkListLitQ (α := q(ℕ)) row.toList
++      let blockSize := 4
++      let mut blocks := #[]
+       let mut proofs := #[]
+-      for i in [:n] do
+-        have row : Q(List ℕ) := rowLits[i]!
++      for i in [:n:blockSize] do
++        have block : Q(List (List ℕ)) :=
++          mkListLitQ (α := q(List ℕ)) (rowLits.toList.drop i |>.take blockSize)
+         have index : Q(ℕ) := mkNatLit i
+-        let proposition := q(checkNatRow $upper $n $p $index $row $tn = true)
++        let proposition := q(checkNatRows $upper $n $p $index $block $tn = true)
+         let value := Lean.reflBoolTrue
+         let name ← withOptions (fun options => options.setBool `Elab.async false) <|
+           mkAuxLemma [] proposition value (cache := false)
+         proofs := proofs.push (mkConst name)
++        blocks := blocks.push (i, block)
+       trace[Determinant.timing] "row kernel proofs: {(← IO.monoMsNow) - started} ms"
+       have empty : Q(List (List ℕ)) := q([])
+       let mut tail := empty
+       let mut proof : Expr := q(checkNatRows_nil $upper $n $p $n $tn)
+-      for i in (List.range n).reverse do
+-        have row : Q(List ℕ) := rowLits[i]!
++      for k in (List.range blocks.size).reverse do
++        let (i, block) := blocks[k]!
++        have block : Q(List (List ℕ)) := block
+         have index : Q(ℕ) := mkNatLit i
+-        have hr : Q(checkNatRow $upper $n $p $index $row $tn = true) := proofs[i]!
+-        have ht : Q(checkNatRows $upper $n $p ($index + 1) $tail $tn = true) := proof
+-        proof := q(checkNatRows_cons $hr $ht)
+-        tail := q($row :: $tail)
++        have hr : Q(checkNatRows $upper $n $p $index $block $tn = true) := proofs[k]!
++        have ht : Q(checkNatRows $upper $n $p ($index + ($block).length) $tail $tn = true) := proof
++        proof := q(checkNatRows_append $hr $ht)
++        tail := q($block ++ $tail)
+       pure proof
+     else pure Lean.reflBoolTrue
+   have h : Q(checkNat $upper $n $p $an $tn = true) := h

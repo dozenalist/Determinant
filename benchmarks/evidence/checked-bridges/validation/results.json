@@ -1,0 +1,42 @@
+[
+  {
+    "test": "Modular",
+    "exitCode": 0,
+    "wallSeconds": 37.282
+  },
+  {
+    "test": "ModularRows",
+    "exitCode": 0,
+    "wallSeconds": 4.358
+  },
+  {
+    "test": "Dispatch",
+    "exitCode": 0,
+    "wallSeconds": 4.194
+  },
+  {
+    "test": "Bridge",
+    "exitCode": 0,
+    "wallSeconds": 13.865
+  },
+  {
+    "test": "Sage",
+    "exitCode": 0,
+    "wallSeconds": 10.85
+  },
+  {
+    "test": "Triangular",
+    "exitCode": 0,
+    "wallSeconds": 11.901
+  },
+  {
+    "test": "ImportSage",
+    "exitCode": 0,
+    "wallSeconds": 2.905
+  },
+  {
+    "test": "ImportLarge",
+    "exitCode": 0,
+    "wallSeconds": 2.628
+  }
+]

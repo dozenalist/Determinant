@@ -1,0 +1,37 @@
+[
+  {
+    "test": "Modular",
+    "exitCode": 0,
+    "wallSeconds": 20.836
+  },
+  {
+    "test": "ModularRows",
+    "exitCode": 0,
+    "wallSeconds": 2.248
+  },
+  {
+    "test": "Dispatch",
+    "exitCode": 0,
+    "wallSeconds": 2.474
+  },
+  {
+    "test": "Bridge",
+    "exitCode": 0,
+    "wallSeconds": 12.546
+  },
+  {
+    "test": "Sage",
+    "exitCode": 0,
+    "wallSeconds": 9.775
+  },
+  {
+    "test": "Triangular",
+    "exitCode": 0,
+    "wallSeconds": 6.44
+  },
+  {
+    "test": "ImportSage",
+    "exitCode": 0,
+    "wallSeconds": 1.656
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "implementation": "baseline",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      7.134,
+      5.776,
+      16.764
+    ],
+    "medianSeconds": 7.134,
+    "worstSeconds": 16.764,
+    "medianRowKernelMs": 2838,
+    "medianCumulativeKernelMs": 3230.0,
+    "medianFinalKernelMs": 420.0,
+    "maxPeakLeanBytes": 1520009216,
+    "allOleanPartsBytes": [
+      1255336,
+      1255336,
+      1255336
+    ],
+    "proofNodes": [
+      19012,
+      19012,
+      19012
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline",
+    "dimension": 100,
+    "count": 3,
+    "wallSeconds": [
+      35.661,
+      36.586,
+      38.311
+    ],
+    "medianSeconds": 36.586,
+    "worstSeconds": 38.311,
+    "medianRowKernelMs": 28791,
+    "medianCumulativeKernelMs": 30800.0,
+    "medianFinalKernelMs": 2340.0,
+    "maxPeakLeanBytes": 1797632000,
+    "allOleanPartsBytes": [
+      3350512,
+      3350512,
+      3350512
+    ],
+    "proofNodes": [
+      74936,
+      74936,
+      74936
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused",
+    "dimension": 50,
+    "count": 3,
+    "wallSeconds": [
+      4.95,
+      5.065,
+      5.422
+    ],
+    "medianSeconds": 5.065,
+    "worstSeconds": 5.422,
+    "medianRowKernelMs": 1913,
+    "medianCumulativeKernelMs": 2350.0,
+    "medianFinalKernelMs": 467.0,
+    "maxPeakLeanBytes": 1519816704,
+    "allOleanPartsBytes": [
+      1255336,
+      1255336,
+      1255336
+    ],
+    "proofNodes": [
+      19012,
+      19012,
+      19012
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused",
+    "dimension": 100,
+    "count": 3,
+    "wallSeconds": [
+      24.12,
+      24.348,
+      26.143
+    ],
+    "medianSeconds": 24.348,
+    "worstSeconds": 26.143,
+    "medianRowKernelMs": 16736,
+    "medianCumulativeKernelMs": 18900.0,
+    "medianFinalKernelMs": 2320.0,
+    "maxPeakLeanBytes": 1801076736,
+    "allOleanPartsBytes": [
+      3350512,
+      3350512,
+      3350512
+    ],
+    "proofNodes": [
+      74936,
+      74936,
+      74936
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "rejected-sharing",
+    "dimension": 50,
+    "count": 2,
+    "wallSeconds": [
+      17.878,
+      6.379
+    ],
+    "medianSeconds": 12.128499999999999,
+    "worstSeconds": 17.878,
+    "medianRowKernelMs": 3054.5,
+    "medianCumulativeKernelMs": 3465.0,
+    "medianFinalKernelMs": 450.0,
+    "maxPeakLeanBytes": 1519669248,
+    "allOleanPartsBytes": [
+      1255336,
+      1255336
+    ],
+    "proofNodes": [
+      19012,
+      19012
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "rejected-sharing",
+    "dimension": 100,
+    "count": 2,
+    "wallSeconds": [
+      37.589,
+      37.56
+    ],
+    "medianSeconds": 37.5745,
+    "worstSeconds": 37.589,
+    "medianRowKernelMs": 29580.5,
+    "medianCumulativeKernelMs": 32100.0,
+    "medianFinalKernelMs": 2740.0,
+    "maxPeakLeanBytes": 1795428352,
+    "allOleanPartsBytes": [
+      3350512,
+      3350512
+    ],
+    "proofNodes": [
+      74936,
+      74936
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-full50",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      10.725
+    ],
+    "medianSeconds": 10.725,
+    "worstSeconds": 10.725,
+    "medianRowKernelMs": 6589,
+    "medianCumulativeKernelMs": 7000.0,
+    "medianFinalKernelMs": 467.0,
+    "maxPeakLeanBytes": 1515782144,
+    "allOleanPartsBytes": [
+      1255312
+    ],
+    "proofNodes": [
+      19013
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused-full50",
+    "dimension": 50,
+    "count": 1,
+    "wallSeconds": [
+      7.689
+    ],
+    "medianSeconds": 7.689,
+    "worstSeconds": 7.689,
+    "medianRowKernelMs": 3712,
+    "medianCumulativeKernelMs": 4170.0,
+    "medianFinalKernelMs": 501.0,
+    "maxPeakLeanBytes": 1513226240,
+    "allOleanPartsBytes": [
+      1255312
+    ],
+    "proofNodes": [
+      19013
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "baseline-retry",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      39.414
+    ],
+    "medianSeconds": 39.414,
+    "worstSeconds": 39.414,
+    "medianRowKernelMs": 31385,
+    "medianCumulativeKernelMs": 33500.0,
+    "medianFinalKernelMs": 2330.0,
+    "maxPeakLeanBytes": 1804935168,
+    "allOleanPartsBytes": [
+      3380152
+    ],
+    "proofNodes": [
+      75549
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  },
+  {
+    "implementation": "fused-retry",
+    "dimension": 100,
+    "count": 1,
+    "wallSeconds": [
+      26.407
+    ],
+    "medianSeconds": 26.407,
+    "worstSeconds": 26.407,
+    "medianRowKernelMs": 18493,
+    "medianCumulativeKernelMs": 20900.0,
+    "medianFinalKernelMs": 2590.0,
+    "maxPeakLeanBytes": 1805131776,
+    "allOleanPartsBytes": [
+      3380152
+    ],
+    "proofNodes": [
+      75549
+    ],
+    "axioms": [
+      "[propext, Classical.choice, Quot.sound]"
+    ]
+  }
+]

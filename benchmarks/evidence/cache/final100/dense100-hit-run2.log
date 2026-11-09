@@ -1,0 +1,132 @@
+[Determinant.timing] triangular attempt: 35 ms
+[Determinant.timing] extraction: 39 ms
+[Determinant.timing] cache lookup: 108 ms
+[Determinant.cache] hit: some ("/tmp/determinant-linux/.lake/cache-benchmark/1794202857835205270/100/run2/matrix-v1-100x100-404d9a260eece9a0e96ba623c1ac7178a789415916f4e23385748a5878b3c010-unit-upper-product.json")
+[Determinant.timing] normalization: 956 ms
+[Determinant.timing] row kernel proofs: 20877 ms
+[Determinant.timing] certificate proof: 22430 ms
+[Determinant.timing] goal connection: 7 ms
+tactic execution of Determinant.Triangular.tacticCertify_det_ne_zero_triangular took 29.2ms
+type checking took 904ms
+type checking took 4.79ms
+type checking took 1.37s
+type checking took 13.4ms
+type checking took 19.7ms
+type checking took 22.3ms
+type checking took 24.4ms
+type checking took 32.3ms
+type checking took 31ms
+type checking took 37.2ms
+type checking took 38.5ms
+type checking took 40.9ms
+type checking took 84.6ms
+type checking took 91.9ms
+type checking took 51.4ms
+type checking took 53.3ms
+type checking took 73ms
+type checking took 64ms
+type checking took 63.8ms
+type checking took 71.2ms
+type checking took 74.7ms
+type checking took 81ms
+type checking took 77.6ms
+type checking took 110ms
+type checking took 99.6ms
+type checking took 101ms
+type checking took 107ms
+type checking took 103ms
+type checking took 110ms
+type checking took 112ms
+type checking took 116ms
+type checking took 114ms
+type checking took 122ms
+type checking took 121ms
+type checking took 122ms
+type checking took 126ms
+type checking took 136ms
+type checking took 134ms
+type checking took 139ms
+type checking took 144ms
+type checking took 161ms
+type checking took 164ms
+type checking took 162ms
+type checking took 164ms
+type checking took 172ms
+type checking took 171ms
+type checking took 171ms
+type checking took 180ms
+type checking took 178ms
+type checking took 187ms
+type checking took 186ms
+type checking took 218ms
+type checking took 209ms
+type checking took 188ms
+type checking took 207ms
+type checking took 207ms
+type checking took 210ms
+type checking took 215ms
+type checking took 212ms
+type checking took 223ms
+type checking took 220ms
+type checking took 238ms
+type checking took 232ms
+type checking took 232ms
+type checking took 235ms
+type checking took 245ms
+type checking took 248ms
+type checking took 327ms
+type checking took 264ms
+type checking took 357ms
+type checking took 275ms
+type checking took 281ms
+type checking took 288ms
+type checking took 322ms
+type checking took 281ms
+type checking took 287ms
+type checking took 288ms
+type checking took 289ms
+type checking took 304ms
+type checking took 318ms
+type checking took 310ms
+type checking took 322ms
+type checking took 338ms
+type checking took 329ms
+type checking took 340ms
+type checking took 371ms
+type checking took 342ms
+type checking took 368ms
+type checking took 366ms
+type checking took 381ms
+type checking took 354ms
+type checking took 360ms
+type checking took 356ms
+type checking took 379ms
+type checking took 371ms
+type checking took 372ms
+type checking took 381ms
+type checking took 380ms
+type checking took 389ms
+type checking took 441ms
+type checking took 400ms
+type checking took 406ms
+type checking took 407ms
+benchmark tactic returned after 23606 ms
+tactic execution of tacticCache_benchmark took 455ms
+share common exprs took 65.5ms
+fix level params took 1.66ms
+type checking took 620ms
+process pre-definitions took 11.7ms
+'benchmark' depends on axioms: [propext, Classical.choice, Quot.sound]
+cumulative profiling times:
+	attribute application 0.0111ms
+	declTypeLinter 0.34ms
+	fix level params 1.66ms
+	instantiate metavars 0.0148ms
+	let-to-have transformation 0.00809ms
+	norm_num 2.82ms
+	process pre-definitions 11.7ms
+	share common exprs 65.5ms
+	tactic execution 485ms
+	tacticAnalysis 0.369ms
+	type checking 23.7s
+	typeclass inference 3.21ms

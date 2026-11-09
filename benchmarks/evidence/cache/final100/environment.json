@@ -1,0 +1,8 @@
+{
+  "platform": "Linux-6.18.54.1-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "python": "3.14.10",
+  "logicalCPUs": 8,
+  "memoryBytes": 8147103744,
+  "leanVersion": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+  "mathlibRevision": "56a005855ea17e0b0958f73ec801ae140b0a1679"
+}

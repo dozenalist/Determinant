@@ -1,0 +1,120 @@
+[
+  {
+    "case": {
+      "name": "dense-50-20bit-full-inverse-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "full-inverse",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "a3f8c9789522ca88736a3d9faeb756357270eadca44c25e4f1a10cb8705b465c"
+    },
+    "run": 1,
+    "wallSeconds": 9.029,
+    "exitCode": 0,
+    "timedOut": false,
+    "deadlineSeconds": 120.0,
+    "peakLeanSampleBytes": 1476788224,
+    "peakProcessRssWait4Bytes": 1476382720,
+    "peakCombinedSampleBytes": 1662967808,
+    "sourceBytes": 26204,
+    "oleanBytes": 159760,
+    "allOleanPartsBytes": 1256464,
+    "log": "dense-50-20bit-full-inverse-json-decimal-strings-run1.log",
+    "phasesMs": {
+      "startup and imports": 1530,
+      "input declaration": 27,
+      "triangular attempt": 19,
+      "extraction": 11,
+      "serialization": 3,
+      "producer transport": 1576,
+      "parsing": 3,
+      "normalization": 177,
+      "row kernel proofs": 4556,
+      "certificate proof": 4877,
+      "goal connection": 1,
+      "pre-export elapsed": 8865
+    },
+    "kernelMs": 5120.0,
+    "finalDeclarationKernelMs": 161.0,
+    "proofNodes": 16637,
+    "producer": {
+      "attempted_primes": [
+        "2"
+      ],
+      "backend": "sage.matrix.matrix_mod2_dense.Matrix_mod2_dense",
+      "certificate_encode_ms": 1,
+      "elapsed_ms": 1040,
+      "import_ms": 1025,
+      "matrix_ms": 1,
+      "name": "SageMath",
+      "peak_rss_kib": 213188,
+      "sage_version": "10.10",
+      "search_inverse_ms": 13
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "exportAndExitMs": 163.501
+  },
+  {
+    "case": {
+      "name": "dense-50-20bit-full-inverse-json-decimal-strings",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "full-inverse",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "a3f8c9789522ca88736a3d9faeb756357270eadca44c25e4f1a10cb8705b465c"
+    },
+    "run": 2,
+    "wallSeconds": 12.704,
+    "exitCode": 0,
+    "timedOut": false,
+    "deadlineSeconds": 120.0,
+    "peakLeanSampleBytes": 1476878336,
+    "peakProcessRssWait4Bytes": 1476608000,
+    "peakCombinedSampleBytes": 1659420672,
+    "sourceBytes": 26204,
+    "oleanBytes": 159760,
+    "allOleanPartsBytes": 1256464,
+    "log": "dense-50-20bit-full-inverse-json-decimal-strings-run2.log",
+    "phasesMs": {
+      "startup and imports": 2612,
+      "input declaration": 33,
+      "triangular attempt": 18,
+      "extraction": 12,
+      "serialization": 3,
+      "producer transport": 2276,
+      "parsing": 5,
+      "normalization": 253,
+      "row kernel proofs": 5814,
+      "certificate proof": 6275,
+      "goal connection": 15,
+      "pre-export elapsed": 12293
+    },
+    "kernelMs": 6590.0,
+    "finalDeclarationKernelMs": 188.0,
+    "proofNodes": 16637,
+    "producer": {
+      "attempted_primes": [
+        "2"
+      ],
+      "backend": "sage.matrix.matrix_mod2_dense.Matrix_mod2_dense",
+      "certificate_encode_ms": 1,
+      "elapsed_ms": 1697,
+      "import_ms": 1675,
+      "matrix_ms": 1,
+      "name": "SageMath",
+      "peak_rss_kib": 213320,
+      "sage_version": "10.10",
+      "search_inverse_ms": 20
+    },
+    "axiomReport": "[propext, Classical.choice, Quot.sound]",
+    "exportAndExitMs": 411.349
+  }
+]

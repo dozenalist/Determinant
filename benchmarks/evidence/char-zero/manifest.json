@@ -1,0 +1,90 @@
+{
+  "generator_sage_version": "10.10",
+  "method": "GL(n, GF(p)).random_element(), lifted by signed multiples of p",
+  "cases": [
+    {
+      "name": "dense-10-20bit-unit-upper-product-json-decimal-strings-int",
+      "dimension": 10,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261118,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "477eaaaf04ba71f2d94284c5a34f8bd1d2f7966a4c390b2a6df4f0e262e47015",
+      "coefficient_ring": "Int",
+      "tactic": "det_ne_zero_int"
+    },
+    {
+      "name": "dense-10-20bit-unit-upper-product-json-decimal-strings-char-zero",
+      "dimension": 10,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261118,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "d1780ac4f2950b56403cdf20fa63bf1ca6fe0b8a76db825ea0fa6fdf32377dce",
+      "coefficient_ring": "R",
+      "tactic": "det_ne_zero"
+    },
+    {
+      "name": "dense-50-20bit-unit-upper-product-json-decimal-strings-int",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "ccc49c27ec123c450a680d5b2214928a4f8d27ed043a7c40bc92d9a551236996",
+      "coefficient_ring": "Int",
+      "tactic": "det_ne_zero_int"
+    },
+    {
+      "name": "dense-50-20bit-unit-upper-product-json-decimal-strings-char-zero",
+      "dimension": 50,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261158,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "861a2168abf981a466fcff3e8260c278e5372a382cbbd8b088aeba1b9c84a499",
+      "coefficient_ring": "R",
+      "tactic": "det_ne_zero"
+    },
+    {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings-int",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "f34bec98a9a1eac702857091a6c60b8c00edda263c14d4429ae8fb9ba4a90597",
+      "coefficient_ring": "Int",
+      "tactic": "det_ne_zero_int"
+    },
+    {
+      "name": "dense-100-20bit-unit-upper-product-json-decimal-strings-char-zero",
+      "dimension": 100,
+      "entry_bits": 20,
+      "max_actual_bits": 20,
+      "variant": "dense",
+      "seed": 20261208,
+      "kind": "unit-upper-product",
+      "representation": "json",
+      "entry_syntax": "decimal-strings",
+      "source_sha256": "a7960e5df479c505229d330304978d2f88aedbddf821f5ebeb440e8192b10742",
+      "coefficient_ring": "R",
+      "tactic": "det_ne_zero"
+    }
+  ]
+}
